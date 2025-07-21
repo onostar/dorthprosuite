@@ -43,6 +43,7 @@
                             <li><a href="dorthpro_health.php" title="Hospital Management system"><i class="fas fa-user-doctor"></i> Hospital Management</a></li>
                             <li><a href="dorthpro_lab.php" title="Laboratory Information System"><i class="fas fa-microscope"></i> Laboratory Information System</a></li>
                             <li><a href="dorthpro_loan.php" title="Microfinanace & Loan management"><i class="fas fa-piggy-bank"></i> Microfinance & Loan Management</a></li>
+                            <li><a href="dorthpro_accounting.php" title="Accounting & asset management system"><i class="fas fa-calculator"></i> Acounting Management</a></li>
                             <li><a href="dorthpro_hotel.php" title="Hotel management system"><i class="fas fa-hotel"></i> Hotel & Lounge Software</a></li>
                             <li><a href="dorthpro_edu.php" title="School management system"><i class="fas fa-user-graduate"></i> School Management</a></li>
                         </ul>
@@ -88,38 +89,25 @@
     <main>
         
         <!-- about page -->
-        <section id="about_us" style="display:none">
+        <section id="about_us">
             <div class="about_banner">
-                <div class="banner_img">
-                    <img src="images/fotoban.jpg" alt="banner">
-                </div>
                 <div class="clients">
                     <img src="images/development.jpeg" alt="banner">
-
                 </div>
             </div>
             <div class="about_text">
                 <h3>Who we are</h3>
-                <h2>Welcome to Onostar Media!</h2>
+                <h2>Empowering African Businesses with Smart, Affordable Software!</h2>
                 <div class="notes">
                     <div class="notes_1">
-                        <p>We are a World class Software development company poised to revolutionise the face of ICT in Nigeria and Africa at large by introducing innovative digital solutions that will take businesses to the next level.</p><br>
-                        <p>At Onostar Media, we are passionate about harnessing the power of technology to create innovative solutions that transform businesses and elevate user experiences. Established in 2019, we have grown into a leading provider of bespoke software development services tailored to meet the diverse needs of our global clientele.<br>
-                      Our mission is to deliver cutting-edge software solutions that not only meet but exceed our clients' expectations. We strive to empower businesses of all sizes with robust, scalable, and secure software applications that drive efficiency, productivity, and growth.<br>
+                        <p>Onostar Media is a Nigerian-based software company focused on building powerful, easy-to-use business solutions tailored for Africa. With years of hands-on experience working with retail stores, healthcare providers, schools, hotels, financial institutions, and other growing businesses, we understand the local challenges — and build technology that truly fits.</p><br>
+                        <p>We believe technology should simplify, not complicate — and that’s why we created <strong>DorthProSuite</strong>.</p><br>
+                        <h4>What is DorthProSuite?</h4>
+                        <p>DorthProSuite is our flagship all-in-one software platform designed to help businesses across industries manage sales, inventory, operations, customer engagement, and reporting — all in one place. Whether you're running a pharmacy, hospital, school, hotel, lounge, or a microfinance institution, DorthProSuite gives you the tools to operate smarter, faster, and more efficiently.<br>Our goal is to power African businesses with customizable, scalable software at prices they can afford — without compromising on quality or support..<br>
                        </p>
                         <a href="about.php"class="about_btn">Read more <i class="fas fa-paper-plane"></i></a>
                     </div>
-                    <!-- <div class="notes_2">
-                        <p>How can we meet the growing demand for oil and gas while protecting our climate & make planet a better place?</p>
-                        <ul>
-                            <li>We ensure strict adherence to being HSC compliant</li>
-                            <li>We have high focus on the sustainability of the environment</li>
-                            <li>We increase local participation in the oil and gas sector.</li>
-                            <li>We do not relent in our continued contribution to community development</li>
-                            <li>We increase healthy competition in the petroleum industry.</li>
-                            
-                        </ul>
-                    </div> -->
+                    
                 </div>
             </div>
         </section>
@@ -129,42 +117,40 @@
                 <h3>Features</h3>
                 <h4>Smart solution that helps save time</h4>
                 <!-- <h2>General and specialized ICT solutions</h2> -->
-                 <p>Dorthpro is a unique and powerful software suite that transforms the way you work. Designed for businesses of all sizes, built by a company that values your privacy.</p>
+                 <p>DorthProSuite is a flexible business software suite built to simplify your operations — whether you manage a retail store, pharmacy, hospital, school, hotel, or finance institution. Here’s what you can do with DorthProSuite:</p>
                 <hr>
                 <div class="feats">
                     <div class="feat">
-                        <i class="fa-solid fa-laptop-code"></i>
+                        <i class="fa-solid fa-cash-register"></i>
                         <div class="feat_details">
-                            <h3>Sales & Invoicing</h3>
-                            <p>Make and Track sales, generate invoices/receipts for customers</p>
+                        <h3>Sales & Inventory</h3>
+                        <p>Manage transactions, invoices, stock levels, and product movement with ease.</p>
                         </div>
-                        
                     </div>
+
                     <div class="feat">
-                        <i class="fa-solid fa-network-wired"></i>
+                        <i class="fa-solid fa-file-invoice-dollar"></i>
                         <div class="feat_details">
-                            <h3>Inventory Control</h3>
-                            <p>Manage purchases, stock balance and adjustments</p>
+                        <h3>Finance & Expenses</h3>
+                        <p>Track payments, categorize expenses, and stay in control of your business finances.</p>
                         </div>
-                        
                     </div>
+
                     <div class="feat">
-                        <i class="fa-solid fa-camera"></i>
+                        <i class="fa-solid fa-chart-bar"></i>
                         <div class="feat_details">
-                            <h3>Expense manager</h3>
-                            <p>Manage and Track expenses on a daily.</p>
+                        <h3>Reports & Insights</h3>
+                        <p>Access real-time analytics on sales, inventory, performance, and profit trends.</p>
                         </div>
-                        
                     </div>
+
                     <div class="feat">
-                        <i class="fas fa-chalkboard-teacher"></i>
+                        <i class="fa-solid fa-layer-group"></i>
                         <div class="feat_details">
-                            <h3>Reports & Analytics</h3>
-                            <p>Customized financial reports, item history, general reports & analytics</p>
+                        <h3>Industry Modules</h3>
+                        <p>Includes specialized tools for hospitals, schools, loans, hospitality, and retail businesses.</p>
                         </div>
-                        
                     </div>
-                    
                 </div>
             </div>
             <div class="feature_img">
@@ -174,52 +160,51 @@
        
         <!-- why choose us -->
         <section id="amenities">
-            <h3>Why choose us</h3>
+            <h3>Why choose Dorthpro</h3>
             <hr>
-            <h2>Solution for every business</h2>
+            <h2>Tailored Software That Works for You</h2>
             <div class="amenities">
                 <div class="offer">
-                    <i class="fas fa-users-gear"></i></i>
-                    <div class="offer_info">
-                        <h4>Security</h4>
-                        <p>We prioritize our client data security. We do not own or sell your data, and we most certainly do not bank on advertising-based business models.</p>
-                    </div>
+                <i class="fas fa-lock"></i>
+                <div class="offer_info">
+                    <h4>Data Security & Privacy</h4>
+                    <p>Your business data belongs to you. We prioritize security, and we never sell or exploit your information.</p>
+                </div>
                 </div>
                 <div class="offer">
-                    <i class="fas fa-brain"></i></i>
-                    <div class="offer_info">
-                        <h4>Innovation</h4>
-                        <p>We embrace creativity and innovation to develop solutions that are at the forefront of technological advancements.</p>
-                    </div>
+                <i class="fas fa-cogs"></i>
+                <div class="offer_info">
+                    <h4>Modular & Customizable</h4>
+                    <p>Pick only the modules you need. We tailor features to your industry, size, and growth plans.</p>
+                </div>
                 </div>
                 <div class="offer">
-                    <i class="fas fa-user-tie"></i></i>
-                    <div class="offer_info">
-                        <h4>Expertise</h4>
-                        <p>Our team comprises talented software engineers and developers with deep expertise across various domains and technologies.</p>
-                    </div>
+                <i class="fas fa-laptop-code"></i>
+                <div class="offer_info">
+                    <h4>Expert-built Technology</h4>
+                    <p>Created by experienced developers at Onostar Media, with over a decade of building smart business tools.</p>
                 </div>
-                
-                <div class="offer">
-                    <i class="fas fa-clipboard-check"></i></i>
-                    <div class="offer_info">
-                        <h4>Quality Assurance</h4>
-                        <p>Rigorous testing and quality assurance processes ensure that our solutions are reliable, efficient, and scalable.</p>
-                    </div>
                 </div>
                 <div class="offer">
-                    <i class="fas fa-chart-line"></i></i>
-                    <div class="offer_info">
-                        <h4>Continuous Improvement</h4>
-                        <p>Dorthpro is committed to continuous learning and improvement, staying updated with the latest trends and technologies in business operations.</p>
-                    </div>
+                <i class="fas fa-hand-holding-dollar"></i>
+                <div class="offer_info">
+                    <h4>Affordable Plans</h4>
+                    <p>No hidden fees. Get enterprise-grade software at pricing that supports small and growing businesses.</p>
+                </div>
                 </div>
                 <div class="offer">
-                    <i class="fas fa-headset"></i></i>
-                    <div class="offer_info">
-                        <h4>24/7 Customer Support</h4>
-                        <p>We offer round the clock support to all of our clients, with prompt response to issues.</p>
-                    </div>
+                <i class="fas fa-rocket"></i>
+                <div class="offer_info">
+                    <h4>Continuous Updates</h4>
+                    <p>We continuously evolve with client feedback, industry needs, and modern tech trends.</p>
+                </div>
+                </div>
+                <div class="offer">
+                <i class="fas fa-headset"></i>
+                <div class="offer_info">
+                    <h4>Fast & Friendly Support</h4>
+                    <p>We’re always just a message away — ready to assist you 24/7 with onboarding or technical help.</p>
+                </div>
                 </div>
             </div>
         </section>
@@ -252,144 +237,83 @@
             </div>
         </section>
        <!-- products -->
-       <section id="core_service">
-            <div class="core_tool">
-                <img src="images/banner4.jpg" alt="core service tools">
+    <section id="core_service">
+        <div class="core_tool">
+            <img src="images/banner4.jpg" alt="core service tools">
+        </div>
+        <div class="core">
+            <div class="core_notes">
+                <h3>Products</h3>
+                <h2>There's a DorthPro for Every Business</h2>
+                <p>Whether you're running a small shop or managing multiple branches, DorthProSuite offers tailored software to simplify your daily operations. Select a product below to start managing your business smarter and faster.</p>
             </div>
-            <div class="core">
-                <div class="core_notes">
-                    <h3>Packages</h3>
-                    <h2>There is a Dorthpro for everyone</h2>
-                    <p>Wether you operate a small business or have multiple branches/store, theres a package that suites your need select any packages below and start enjoying a one month free Dorthpro pofessional package:</p><br>
-                    <!-- <a href="contact.php">Start A free Trial <i class="fas fa-angle-double-right"></i></a> -->
-                    <!-- <img src="images/banner3.webp" alt="service image"> -->
-                </div>
-                
-                <div class="core_services">
-                    <figure>
-                        <figcaption>
-                            <?php
-                                $get_pkg = new selects();
-                                $pkgs = $get_pkg->fetch_details_cond('packages', 'package_id', 1);
-                                foreach($pkgs as $pkg){
-                                    $name = $pkg->package;
-                                    $price = $pkg->price;
-                                    $users = $pkg->users;
-                                    $store = $pkg->store;
-                                }
-                                
-                            ?>
-                            <h3><?php echo $name?></h3>
-                            <h2><?php echo "₦".number_format($price)?>/Month</h2>
-                            <hr>
-                            <p>Popular Features</p>
-                            <ul>
-                                <li><i class="fas fa-check"></i> Retail Sales</li>
-                                <li><i class="fas fa-check"></i>  Inventory Control</li>
-                                <li><i class="fas fa-check"></i>  Purchase</li>
-                                <!-- <li><i class="fas fa-check"></i>  Expense Manager</li> -->
-                                <li><i class="fas fa-check"></i>  Reports & Analytics</li>
-                                <li><i class="fas fa-check"></i>  <?php echo $users?> User</li>
-                                <li><i class="fas fa-check"></i>  <?php echo $store?> Store/Location</li>
-                            </ul>
-                            <div class="link">
-                                <a href="register.php">Start free trial <i class="fas fa-paper-plane"></i></a>
-                            </div>
-                        </figcaption>
-                    </figure>
-                    <figure>
-                        <figcaption>
-                            <?php
-                                $pkgs = $get_pkg->fetch_details_cond('packages', 'package_id', 2);
-                                foreach($pkgs as $pkg){
-                                    $name = $pkg->package;
-                                    $price = $pkg->price;
-                                    $users = $pkg->users;
-                                    $store = $pkg->store;
-                                }
-                                
-                            ?>
-                            <h3><?php echo $name?></h3>
-                            <h2><?php echo "₦".number_format($price)?>/Month</h2>
-                            <hr>
-                            <p>Popular Features</p>
-                            <ul>
-                                <li><i class="fas fa-check"></i> Retail Sales</li>
-                                <li><i class="fas fa-check"></i>  Inventory Control</li>
-                                <li><i class="fas fa-check"></i>  Purchase</li>
-                                <li><i class="fas fa-check"></i>  Expense Manager</li>
-                                <li><i class="fas fa-check"></i>  <?php echo $users?> Users</li>
-                                <li><i class="fas fa-check"></i>  <?php echo $store?> Stores/Locations</li>
-                            </ul>
-                            <div class="link">
-                                <a href="register.php">Start free trial <i class="fas fa-paper-plane"></i></a>
-                            </div>
-                        </figcaption>
-                    </figure>
-                    <figure>
-                        <figcaption>
-                            <?php
-                                $pkgs = $get_pkg->fetch_details_cond('packages', 'package_id', 3);
-                                foreach($pkgs as $pkg){
-                                    $name = $pkg->package;
-                                    $price = $pkg->price;
-                                    $users = $pkg->users;
-                                    $store = $pkg->store;
-                                }
-                                
-                            ?>
-                           <h3><?php echo $name?></h3>
-                           <h2><?php echo "₦".number_format($price)?>/Month</h2>
-                            <hr>
-                            <p>Popular Features</p>
-                            <ul>
-                                <li><i class="fas fa-check"></i> Retail & Wholesale</li>
-                                <li><i class="fas fa-check"></i> Customer management</li>
-                                <li><i class="fas fa-check"></i>  Reports & Analytics</li>
-                                <li><i class="fas fa-check"></i> Financial Management</li>
-                                <li><i class="fas fa-check"></i>  <?php echo $users?> Users</li>
-                                <li><i class="fas fa-check"></i>  <?php echo $store?> Stores/Locations</li>
-                                
-                            </ul>
-                            <div class="link">
-                                <a href="register.php">Start free trial <i class="fas fa-paper-plane"></i></a>
-                            </div>
-                        </figcaption>
-                    </figure>
-                    <figure>
-                        <figcaption>
-                            <?php
-                                $pkgs = $get_pkg->fetch_details_cond('packages', 'package_id', 4);
-                                foreach($pkgs as $pkg){
-                                    $name = $pkg->package;
-                                    $price = $pkg->price;
-                                }
-                                
-                            ?>
-                            <h3><?php echo $name?></h3>
-                            <h2>Tailored Features</h2>
-                            <hr>
-                            <p>Popular Features</p>
-                            <ul>
-                            <li><i class="fas fa-check"></i> Customer Management</li>
-                            <li><i class="fas fa-check"></i> Sales Rep Commissions</li>
-                            <li><i class="fas fa-check"></i> SMS Integration</li>
-                            <li><i class="fas fa-check"></i> Customizable features</li>
-                            <li><i class="fas fa-check"></i> Unlimited Users</li>
-                            <li><i class="fas fa-check"></i> Multiple Stores/Location</li>
-                                
-                            </ul>
-                            <div class="link">
-                                <a href="https://wa.me/+2347068897068" target="_blank" title="Request Demo">Request Demo <i class="fas fa-paper-plane"></i></a>
-                            </div>
-                        </figcaption>
-                    </figure>
-                    
-                    
-                </div>
+
+            <div class="core_services">
+                <figure>
+                    <img src="images/pos_icon.jpg" alt="icon">
+                    <figcaption>
+                        <h3>DorthPro POS</h3>
+                        <p>Powerful sales and inventory software for retail and wholesale stores, supermarkets, and pharmacies. Track stock, sales, expenses, and generate insightful business reports effortlessly.</p><br>
+                        <a href="dorthpro_pos.php">View Details <i class="fas fa-paper-plane"></i></a>
+                    </figcaption>
+                </figure>
+
+                <figure>
+                    <img src="images/hotel_icon.png" alt="icon">
+                    <figcaption>
+                        <h3>DorthPro Hotel & Lounge</h3>
+                        <p>Streamline guest check-ins, reservations, billing, and manage your bar and restaurant inventory from one easy-to-use platform.</p><br>
+                        <a href="dorthpro_hotel.php">View Details <i class="fas fa-paper-plane"></i></a>
+                    </figcaption>
+                </figure>
+
+                <figure>
+                    <img src="images/lab_icon.png" alt="icon">
+                    <figcaption>
+                        <h3>DorthPro Hospital System</h3>
+                        <p>Complete hospital and clinic solution — manage patient records, appointments, consultations, labs, pharmacy, billing, and corporate accounts in one place.</p><br>
+                        <a href="dorthpro_health.php">View Details <i class="fas fa-paper-plane"></i></a>
+                    </figcaption>
+                </figure>
+
+                <figure>
+                    <img src="images/lab_icon.png" alt="icon">
+                    <figcaption>
+                        <h3>DorthPro Laboratory System</h3>
+                        <p>Manage all diagnostic center operations — test requests, sample tracking, results reporting, doctor access, billing, and patient records — all in one system.</p><br>
+                        <a href="dorthpro_lab.php">View Details <i class="fas fa-paper-plane"></i></a>
+                    </figcaption>
+                </figure>
+
+                <figure>
+                    <img src="images/accounting.jpg" alt="icon">
+                    <figcaption>
+                        <h3>DorthPro Accounting</h3>
+                        <p>Full-featured accounting software with invoicing, asset management, depreciation tracking, and key financial statements like cash flow, profit & loss, and balance sheet.</p><br>
+                        <a href="dorthpro_accounting.php">View Details <i class="fas fa-paper-plane"></i></a>
+                    </figcaption>
+                </figure>
+
+                <figure>
+                    <img src="images/loan_icon.jpg" alt="icon">
+                    <figcaption>
+                        <h3>DorthPro Loan & Microfinance</h3>
+                        <p>Loan management made simple — automate applications, approvals, disbursements, repayments, interest tracking, penalties, and reports. Built for microfinance and cooperatives.</p><br>
+                        <a href="dorthpro_loan.php">View Details <i class="fas fa-paper-plane"></i></a>
+                    </figcaption>
+                </figure>
+
+                <figure>
+                    <img src="images/school_icon.jpg" alt="icon">
+                    <figcaption>
+                        <h3>DorthPro School Manager</h3>
+                        <p>All-in-one school management solution — admissions, attendance, grading, fees, communication, and academic records — all on one platform.</p><br>
+                        <a href="dorthpro_edu.php">View Details <i class="fas fa-paper-plane"></i></a>
+                    </figcaption>
+                </figure>
             </div>
-            
-        </section>
+        </div>
+    </section>
         <!-- quote in full -->
         <section id="quote_request">
             <h3>TOGETHER WE INNOVATE THE FUTURE</h3>
