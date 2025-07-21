@@ -2073,6 +2073,9 @@ covid section
     padding:10px;
     text-align:center;
 }
+.core_services figure img{
+    width:50px;
+}
 .core_services figcaption h3{
     color:var(--primaryColor)!important;
     text-align: center!important;
