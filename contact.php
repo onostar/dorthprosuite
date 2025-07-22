@@ -1,5 +1,5 @@
 <?php 
-    $title = "Contact us";
+    $title = "Dorthpro Suite - Contact us";
     include ('head.php');
 ?>
 <body>

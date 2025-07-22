@@ -15,7 +15,7 @@
             <div class="about_banner">
                 <div class="slide">
                     <div class="banner_img">
-                        <img src="images/fotoban.jpg" alt="about us">
+                        <img src="images/banner4.jpg" alt="about us">
                     </div>
                     <div class="taglines">
                         <h1>About us</h1>

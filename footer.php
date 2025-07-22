@@ -65,10 +65,11 @@
                         <h3>Quick Links</h3>
                         <div class="categories">
                             <li><a href="about.php">About us</a></li>
-                            <li><a href="partnership.php">Become a partner</a></li>
+                            <li><a href="partners.php">Become a partner</a></li>
                             <li><a href="#"></a></li>
                             <li><a href="https://dorthprosuite.com#core_service">Products</a></li>
-                            <li><a href="contact.php" target="_blank">Contact</a></li>
+                            <li><a href="request_demo.php">Request Live Demo</a></li>
+                            <li><a href="contact.php">Contact</a></li>
                             <li><a href="tutorials.php" target="_blank">Training</a></li>
                             
                             

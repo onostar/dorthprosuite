@@ -1,6 +1,6 @@
 <?php 
     include "controller/connections.php";
-    $title = "Articles";
+    $title = "Dorthpro Smart Business Insights";
     include ('head.php');
 ?>
 <body>

@@ -41,7 +41,8 @@
 
                     <li><a href="partners.php" title="Partnership"><i class="fas fa-handshake"></i>Become a partner</a></li>
                    
-                    <li id="login"><a href="request_demo.php" title="Request demo"><i class="fas fa-headset"></i> Contact Us</a></li>
+                    <li id="login"><a href="request_demo.php" title="Request demo"><i class="fas fa-chalkboard-teacher"></i> Request Live demo</a></li>
+
                 </ul>
             </nav>
             <div class="menu-icon" onclick="displayMenu()"><a href="javascript:void(0);"><i class="fas fa-bars"></i></a></div>
