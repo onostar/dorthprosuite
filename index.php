@@ -39,13 +39,13 @@
                     <li>
                         <a href="javascript:void(0)" title="Our Products"><i class="fas fa-server"></i>  Products <i class="fas fa-chevron-down"></i></a>
                         <ul>
-                            <li><a href="dorthpro_pos.php" title="Point of sales and inventory management"><i class="fas fa-cash-register"></i> Inventory & Sales</a></li>
-                            <li><a href="dorthpro_health.php" title="Hospital Management system"><i class="fas fa-user-doctor"></i> Hospital Management</a></li>
-                            <li><a href="dorthpro_lab.php" title="Laboratory Information System"><i class="fas fa-microscope"></i> Laboratory Information System</a></li>
-                            <li><a href="dorthpro_loan.php" title="Microfinanace & Loan management"><i class="fas fa-piggy-bank"></i> Microfinance & Loan Management</a></li>
-                            <li><a href="dorthpro_accounting.php" title="Accounting & asset management system"><i class="fas fa-calculator"></i> Acounting Management</a></li>
-                            <li><a href="dorthpro_hotel.php" title="Hotel management system"><i class="fas fa-hotel"></i> Hotel & Lounge Software</a></li>
-                            <li><a href="dorthpro_edu.php" title="School management system"><i class="fas fa-user-graduate"></i> School Management</a></li>
+                            <li><a href="sales_inventory.php" title="Point of sales and inventory management"><i class="fas fa-cash-register"></i> Dorthpro POS</a></li>
+                            <li><a href="hospital.php" title="Hospital Management system"><i class="fas fa-user-doctor"></i> Hospital Management</a></li>
+                            <li><a href="laboratory.php" title="Laboratory Information System"><i class="fas fa-microscope"></i> Laboratory Information System</a></li>
+                            <li><a href="microfinance.php" title="Microfinanace & Loan management"><i class="fas fa-piggy-bank"></i> Microfinance & Loan Management</a></li>
+                            <li><a href="accounting.php" title="Accounting & asset management system"><i class="fas fa-calculator"></i> Acounting Management</a></li>
+                            <li><a href="hotel.php" title="Hotel management system"><i class="fas fa-hotel"></i> Hotel & Lounge Software</a></li>
+                            <li><a href="school.php" title="School management system"><i class="fas fa-user-graduate"></i> School Management</a></li>
                         </ul>
                     
                     </li>
@@ -251,7 +251,7 @@
                     <figcaption>
                         <h3>DorthPro POS</h3>
                         <p>Powerful sales and inventory software for retail and wholesale stores, supermarkets, and pharmacies. Track stock, sales, expenses, and generate insightful business reports effortlessly.</p><br>
-                        <a href="dorthpro_pos.php">View Details <i class="fas fa-paper-plane"></i></a>
+                        <a href="sales_inventory.php">View Details <i class="fas fa-paper-plane"></i></a>
                     </figcaption>
                 </figure>
 
@@ -260,7 +260,7 @@
                     <figcaption>
                         <h3>DorthPro Hotel & Lounge</h3>
                         <p>Streamline guest check-ins, reservations, billing, and manage your bar and restaurant inventory from one easy-to-use platform.</p><br>
-                        <a href="dorthpro_hotel.php">View Details <i class="fas fa-paper-plane"></i></a>
+                        <a href="hotel.php">View Details <i class="fas fa-paper-plane"></i></a>
                     </figcaption>
                 </figure>
 
@@ -269,7 +269,7 @@
                     <figcaption>
                         <h3>DorthPro Hospital Management</h3>
                         <p>Complete hospital and clinic solution — manage patient records, appointments, consultations, labs, pharmacy, billing, and corporate accounts in one place.</p><br>
-                        <a href="dorthpro_health.php">View Details <i class="fas fa-paper-plane"></i></a>
+                        <a href="hospital.php">View Details <i class="fas fa-paper-plane"></i></a>
                     </figcaption>
                 </figure>
 
@@ -278,7 +278,7 @@
                     <figcaption>
                         <h3>DorthPro Laboratory System</h3>
                         <p>Manage all diagnostic center operations — test requests, sample tracking, results reporting, doctor access, billing, and patient records — all in one system.</p><br>
-                        <a href="dorthpro_lab.php">View Details <i class="fas fa-paper-plane"></i></a>
+                        <a href="laboratory.php">View Details <i class="fas fa-paper-plane"></i></a>
                     </figcaption>
                 </figure>
 
@@ -287,7 +287,7 @@
                     <figcaption>
                         <h3>DorthPro Accounting</h3>
                         <p>Full-featured accounting software with invoicing, asset management, depreciation tracking, and key financial statements like cash flow, profit & loss, and balance sheet.</p><br>
-                        <a href="dorthpro_accounting.php">View Details <i class="fas fa-paper-plane"></i></a>
+                        <a href="accounting.php">View Details <i class="fas fa-paper-plane"></i></a>
                     </figcaption>
                 </figure>
 
@@ -296,7 +296,7 @@
                     <figcaption>
                         <h3>DorthPro Loan & Microfinance</h3>
                         <p>Loan management made simple — automate applications, approvals, disbursements, repayments, interest tracking, penalties, and reports. Built for microfinance and cooperatives.</p><br>
-                        <a href="dorthpro_loan.php">View Details <i class="fas fa-paper-plane"></i></a>
+                        <a href="microfinance.php">View Details <i class="fas fa-paper-plane"></i></a>
                     </figcaption>
                 </figure>
 
@@ -305,7 +305,7 @@
                     <figcaption>
                         <h3>DorthPro School Manager</h3>
                         <p>All-in-one school management solution — admissions, attendance, grading, fees, communication, and academic records — all on one platform.</p><br>
-                        <a href="dorthpro_edu.php">View Details <i class="fas fa-paper-plane"></i></a>
+                        <a href="school.php">View Details <i class="fas fa-paper-plane"></i></a>
                     </figcaption>
                 </figure>
             </div>
@@ -319,30 +319,6 @@
                 <a href="https://www.onostarmedia.dorthpro.com" target="_blank">View other Solutions <i class="fas fa-paper-plane"></i></a>
             </div>
         </section>
-        <!-- team -->
-        <!-- <section id="team">
-            <h2>The Amazing team behind our Establishment</h2>
-            <hr>
-            <p>We have a qualified team of Scientists, Pharmacist, health technicians, and top professionals in the health sector.</p>
-            <div class="team">
-            <figure>
-                    <img src="images/d1.jpg" alt="management photo">
-                    <figcaption>
-                        <h3>DR (PHARM) Nelson Akogo (B.Pharm, PharmD, MPSN)<span>MD, CEO</span></h3>
-                        <div class="socials">
-                            <i class="fab fa-facebook-square" style="color:#3b5998"></i>
-                            <i class="fab fa-twitter-square" style="color:#00acee"></i>
-                            <i class="fab fa-linkedin" style="color:#0072b1"></i>
-                        </div>
-                        
-                    </figcaption>
-                </figure>
-                
-            </div>
-            <div class="more_team">
-                <a href="about.php#team" title="View team members">View more <i class="fas fa-angle-double-right"></i></a>
-            </div> 
-        </section> -->
         <!--Partners -->
         <section id="partners">
             <h3>Some of Our Clients</h3>
@@ -433,14 +409,6 @@
                     <img src="images/icon1.png" alt="partners">
                     <figcaption>Maxime Pharmacy</figcaption>
                 </figure>
-                <!-- <figure>
-                    <img src="images/icon1.png" alt="partners">
-                    <figcaption>1FCA Divine Ventures</figcaption>
-                </figure> -->
-                <!-- <figure>
-                    <img src="images/temix.jpg" alt="partners">
-                    <figcaption>Temix empire</figcaption>
-                </figure> -->
             </div>
         </section>
         <Section id="plans">
@@ -488,68 +456,6 @@
         </Section>
         
         
-        <!-- <section id="testimonies">
-            <h2>testimonies from our Clients</h2>
-            <hr>
-            <div class="box">
-                <div class="testimonies">
-                    <div class="testimony">
-                        <div class="test_img">
-                            <img src="images/team_01-540x518.jpg" alt="James Chester">
-                        </div>
-                        <div class="test_note">
-                            <p>"I couldn’t be happier with the service I was provided. Everyone took ample time with me to ensure that my visit exceeded my expectations."</p>
-                            <div class="testifier">
-                                <img src="images/team_01-540x518.jpg" alt="testifier">
-                                <span>- James Chester</span>
-                            </div>
-                        </div>
-                        
-                    </div>
-                    <div class="testimony">
-                        <div class="test_img">
-                            <img src="images/team_02-540x518.jpg" alt="Andre Coleman morgans">
-                        </div>
-                        <div class="test_note">
-                            <p>"We have used Bob and sil to provide services that our competitions cannot begin to offer. That has given us a decisive edge in our market. Now we can produce even more with sustainable energy"</p>
-                            <div class="testifier">
-                                <img src="images/team_02-540x518.jpg" alt="testifier">
-                                <span>- Eddie Smith</span>
-                            </div>
-                        </div>
-                        
-                    </div>
-                    <div class="testimony">
-                        <div class="test_img">
-                            <img src="images/team_03-540x518.jpg" alt="Will pilo">
-                        </div>
-                        <div class="test_note">
-                            <p>"We have been engaged with Bob and sil for several months now. They have been very responsive to all requests. Investing with Irecco has brought more financial value to us as a company as well as development."</p>
-                            <div class="testifier">
-                                <img src="images/team_03-540x518.jpg" alt="testifier">
-                                <span>- Damian wilsbrock</span>
-                            </div>
-                        </div>
-                        
-                    </div>
-                    <div class="testimony">
-                        <div class="test_img">
-                            <img src="images/team_04-540x518.jpg" alt="Will pilo">
-                        </div>
-                        <div class="test_note">
-                            <p>"Bob and SIl globale an excellent service, be it on a business or personal level.I found the company's various investment plans very helpful to the growth of my business and i am heading on a great path to finanncial freedom"</p>
-                            <div class="testifier">
-                                <img src="images/team_04-540x518.jpg" alt="testifier">
-                                <span>- Sean Mendoz</span>
-                            </div>
-                        </div>
-                        
-                    </div>
-                    
-                </div>
-            </div>
-        </section> -->
-        <!-- hero 2 -->
         
         
         

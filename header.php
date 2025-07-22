@@ -27,13 +27,13 @@
                     <li>
                         <a href="javascript:void(0)" title="Our Products"><i class="fas fa-server"></i>  Products <i class="fas fa-chevron-down"></i></a>
                         <ul>
-                            <li><a href="dorthpro_pos.php" title="Point of sales and inventory management"><i class="fas fa-cash-register"></i> Inventory & Sales</a></li>
-                            <li><a href="dorthpro_health.php" title="Hospital Management system"><i class="fas fa-user-doctor"></i> Hospital Management</a></li>
-                            <li><a href="dorthpro_lab.php" title="Laboratory Information System"><i class="fas fa-microscope"></i> Laboratory Information System</a></li>
-                            <li><a href="dorthpro_loan.php" title="Microfinanace & Loan management"><i class="fas fa-piggy-bank"></i> Microfinance & Loan Management</a></li>
-                            <li><a href="dorthpro_accounting.php" title="Accounting & asset management system"><i class="fas fa-calculator"></i> Acounting Management</a></li>
-                            <li><a href="dorthpro_hotel.php" title="Hotel management system"><i class="fas fa-hotel"></i> Hotel & Lounge Software</a></li>
-                            <li><a href="dorthpro_edu.php" title="School management system"><i class="fas fa-user-graduate"></i> School Management</a></li>
+                            <li><a href="sales_inventory.php" title="Point of sales and inventory management"><i class="fas fa-cash-register"></i> Dorthpro POS</a></li>
+                            <li><a href="hospital.php" title="Hospital Management system"><i class="fas fa-user-doctor"></i> Hospital Management</a></li>
+                            <li><a href="laboratory.php" title="Laboratory Information System"><i class="fas fa-microscope"></i> Laboratory Information System</a></li>
+                            <li><a href="microfinance.php" title="Microfinanace & Loan management"><i class="fas fa-piggy-bank"></i> Microfinance & Loan Management</a></li>
+                            <li><a href="accounting.php" title="Accounting & asset management system"><i class="fas fa-calculator"></i> Acounting Management</a></li>
+                            <li><a href="hotel.php" title="Hotel management system"><i class="fas fa-hotel"></i> Hotel & Lounge Software</a></li>
+                            <li><a href="school.php" title="School management system"><i class="fas fa-user-graduate"></i> School Management</a></li>
                         </ul>
                     
                     </li>
