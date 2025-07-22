@@ -21,18 +21,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="<?php echo $row->title?>">
-    <meta name="keyword" content="Software, automation, business software, point of sales, inventory management, accounting software, production software, security surveillance, CCTV" />
-	<meta name="author" content="Onostar Media"/>
-	<meta name="og:url" property="og:url" content="https://">
-    <meta name="og:type "property="og:type" content="website">
-    <meta name="og:title" property="og:title" content="" />
-    <meta name="og:site_name" property="og:site_name" content="" />
+     <meta name="keywords" content="POS software, hospital management system, school software Nigeria, hotel software Africa, inventory and sales app, accounting system, loan management software, restaurant and lounge management, business software for Africa, custom business software, affordable software solutions, DorthProSuite, DorthPro, Dorthpro suite, Dorthpro, Onostar Media">
+	<meta name="author" content="Onostar Media">
+    
+    <!-- Open Graph Tags -->
+    <meta property="og:url" content="https://dorthprosuite.com">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="<?= $title ?>">
+    <meta property="og:site_name" content="DorthProSuite">
     <meta name="og:description" property="og:description" content="<?php echo $row->title?>">
-    <meta name="keyword" content="Software, automation, business software, point of sales, inventory management, accounting software, production software">
+   
     <meta name="og:image" property="og:image" itemprop="image" content="<?php echo 'admin/photos/'.$row->photo?>">
     <meta property="og:image:width" content="300" />
     <meta property="og:image:height" content="300" />
-    <title><?= $title ?></title>
+     <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="<?= $title ?>">
+    <meta name="twitter:description" content="<?= $title?>">
+    <meta name="twitter:image" content="https://dorthprosuite.com/images/icon.png">
+    
+    <title><?= htmlspecialchars($title) ?></title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="fontawesome-free-6.0.0-web/css/all.css">
     <link rel="stylesheet" href="fontawesome-free-6.0.0-web/css/all.min.css">
@@ -41,33 +49,38 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- <div class="loading">
-        <div class="loader">
-            <div class="circle"></div>
-            <div class="circle"></div>
-        </div>
-    </div> -->
-    <!-- <div class="main"> -->
+    
     <header id="mainHeader" class="main_header" style="position:fixed; top:0;left:0;margin:0;width:100%;border-radius:0; min-height:8vh;">
-        <h1>
-                <a href="index.php">
-                    <img src="images/logo.png" alt="logo">
-                </a>
-            </h1>
-            <nav id="navigation">
-                <ul>
+        <h2>
+            <a href="index.php">
+                <img src="images/dorthpro1.png" alt="Dorthpro suite logo">
+            </a>
+        </h2>
+        <nav id="navigation">
+            <ul>
                 <li><a href="about.php" title="who we are"><i class="fas fa-bank"></i>About us</a></li>
-                    <li>
-                        <a href="#services" title="What we do"><i class="fa-solid fa-desktop-alt"></i>Services</a>
-                    </li>
-                   
-                    <li><a href="#products" title="Our products"><i class="fa-solid fa-server"></i>Products</a></li>
-                    <li><a href="articles.php" title="News letter"><i class="fa-solid fa-newspaper"></i>Blog</a></li>
-                    <li id="login"><a href="contact.php" title="Contact us"><i class="fas fa-headset"></i> Get a Quote</a></li>
-                </ul>
-            </nav>
-            <div class="menu-icon" onclick="displayMenu()"><a href="javascript:void(0);"><i class="fas fa-bars"></i></a></div>
-        </header>
+                <li>
+                    <a href="javascript:void(0)" title="Our Products"><i class="fas fa-server"></i>  Products <i class="fas fa-chevron-down"></i></a>
+                    <ul>
+                        <li><a href="dorthpro_pos.php" title="Point of sales and inventory management"><i class="fas fa-cash-register"></i> Inventory & Sales</a></li>
+                        <li><a href="dorthpro_health.php" title="Hospital Management system"><i class="fas fa-user-doctor"></i> Hospital Management</a></li>
+                        <li><a href="dorthpro_lab.php" title="Laboratory Information System"><i class="fas fa-microscope"></i> Laboratory Information System</a></li>
+                        <li><a href="dorthpro_loan.php" title="Microfinanace & Loan management"><i class="fas fa-piggy-bank"></i> Microfinance & Loan Management</a></li>
+                        <li><a href="dorthpro_accounting.php" title="Accounting & asset management system"><i class="fas fa-calculator"></i> Acounting Management</a></li>
+                        <li><a href="dorthpro_hotel.php" title="Hotel management system"><i class="fas fa-hotel"></i> Hotel & Lounge Software</a></li>
+                        <li><a href="dorthpro_edu.php" title="School management system"><i class="fas fa-user-graduate"></i> School Management</a></li>
+                    </ul>
+                
+                </li>
+                <li><a href="articles.php" title="Blog and articles"><i class="fa-solid fa-newspaper"></i>Blog</a></li>
+
+                <li><a href="partners.php" title="Partnership"><i class="fas fa-handshake"></i>Become a partner</a></li>
+                
+                <li id="login"><a href="contact.php" title="Request demo"><i class="fas fa-headset"></i> Contact Us</a></li>
+            </ul>
+        </nav>
+        <div class="menu-icon" onclick="displayMenu()"><a href="javascript:void(0);"><i class="fas fa-bars"></i></a></div>
+    </header>
         
     <main style="margin-top:20vh!important;">
     <section id="existence" style="width:95%">
@@ -94,7 +107,7 @@
                 <div class="more_details">
                     <!-- <p style="color:var(--moreColor);text-transform:uppercase;text-align:center;font-size:1rem;"><span></span></p> -->
                     
-                    <h4><?php echo $row->title?></h4>
+                    <h1><?php echo $row->title?></h1>
                     <textarea style="width:100%; height:500px; border:none;"><?php echo $row->details?></textarea>
                     
                 </div>

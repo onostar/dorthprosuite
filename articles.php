@@ -19,7 +19,7 @@
                         <img src="images/banner6.jpg" alt="about us">
                     </div>
                     <div class="taglines">
-                        <h2>Articles</h2>
+                        <h1>Articles</h1>
                         <!-- <p>We bring exceptional care close to you. Consult a Doctor any time, any day.</p> -->
                         <!-- <div class="btns">
                             <a href="javascrip:void(0);" class="showRequest">Schedule an Appointment Now</a>

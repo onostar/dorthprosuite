@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <meta name="description" content="Power your retail (pharmacy & supermarket), healthcare, education, financial, or hospitality business with DorthProSuite — customizable software for sales, inventory, customer management, and smarter operations.">
-    <meta name="keywords" content="POS software, hospital management system, school software Nigeria, hotel software Africa, inventory and sales app, accounting system, loan management software, restaurant and lounge management, business software for Africa, custom business software, affordable software solutions, DorthProSuite, DorthPro, Onostar Media">
+    <meta name="keywords" content="POS software, hospital management system, school software Nigeria, hotel software Africa, inventory and sales app, accounting system, loan management software, restaurant and lounge management, business software for Africa, custom business software, affordable software solutions, DorthProSuite, DorthPro, Dorthpro suite, Dorthpro, Onostar Media">
     <meta name="author" content="Onostar Media">
     
     <!-- Open Graph Tags -->

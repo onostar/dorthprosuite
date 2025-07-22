@@ -3,41 +3,45 @@
             <ul>
                 <li><a href="https://facebook.com/onostarmedia"><i class="fab fa-facebook"></i></a></li>
                 <li><a href="https://www.linkedin.com/company/onostar-media"><i class="fab fa-linkedin"></i></a></li>
-                <li><a href="https://twiter.com/onostar_media"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="https://twitter.com/onostar_media"><i class="fab fa-twitter"></i></a></li>
                 <li><a href="https://instagram.com/onostarmedia"><i class="fab fa-instagram"></i></a></li>
             </ul>
         </div>
         <div class="contact_phone">
             <ul>
-                <!-- <li>
-                    <a><i class="far fa-clock"></i>Mon - Sat : 8:00am - 6:00pm</a>
-                </li> -->
-                <li><a href="javascript:void(0)"><i class="far fa-envelope"></i>info@dorthpro.com</a></li>
+                <li><a href="javascript:void(0)"><i class="far fa-envelope"></i>info@dorthprosuite.com</a></li>
                
-                <!-- <li><a href="javascript:void(0);"><i class="fas fa-users"></i>Alumni</a></li>
-                <li><a href="javascript:void(0)">Portal<i class="fas fa-sign-in-alt"></i></a></li> -->
             </ul>
         </div>
     </section>
     <section id="aboutBanner">
         <header id="mainHeader" class="main_header">
-            <h1>
+            <h2>
                 <a href="index.php">
-                    <img src="images/dorthpro1.png" alt="logo">
+                    <img src="images/dorthpro1.png" alt="Dorthpro suite logo">
                 </a>
-            </h1>
+            </h2>
             <nav id="navigation">
                 <ul>
                     <li><a href="about.php" title="who we are"><i class="fas fa-bank"></i>About us</a></li>
-                    <!-- <li>
-                        <a href="#features" title="What we do"><i class="fa-solid fa-desktop-alt"></i>Services</a>
-                    </li> -->
-                   
-                    <li><a href="#quote_request" title="Our products"><i class="fa-solid fa-server"></i>Other Products</a></li>
-                    <li><a href="#core_service" title="Ourpackages"><i class="fa-solid fa-newspaper"></i>Pricing</a></li>
-                    <li><a href="tutorials.php" title="Support and learning" target="_blank"><i class="fa-solid fa-chalkboard-teacher"></i>Learning & Support</a></li>
-                    <li id="login"><a href="company/index.php" title="Sign in"><i class="fas fa-sign-in"></i> Login</a></li>
+                    <li>
+                        <a href="javascript:void(0)" title="Our Products"><i class="fas fa-server"></i>  Products <i class="fas fa-chevron-down"></i></a>
+                        <ul>
+                            <li><a href="dorthpro_pos.php" title="Point of sales and inventory management"><i class="fas fa-cash-register"></i> Inventory & Sales</a></li>
+                            <li><a href="dorthpro_health.php" title="Hospital Management system"><i class="fas fa-user-doctor"></i> Hospital Management</a></li>
+                            <li><a href="dorthpro_lab.php" title="Laboratory Information System"><i class="fas fa-microscope"></i> Laboratory Information System</a></li>
+                            <li><a href="dorthpro_loan.php" title="Microfinanace & Loan management"><i class="fas fa-piggy-bank"></i> Microfinance & Loan Management</a></li>
+                            <li><a href="dorthpro_accounting.php" title="Accounting & asset management system"><i class="fas fa-calculator"></i> Acounting Management</a></li>
+                            <li><a href="dorthpro_hotel.php" title="Hotel management system"><i class="fas fa-hotel"></i> Hotel & Lounge Software</a></li>
+                            <li><a href="dorthpro_edu.php" title="School management system"><i class="fas fa-user-graduate"></i> School Management</a></li>
+                        </ul>
                     
+                    </li>
+                    <li><a href="articles.php" title="Blog and articles"><i class="fa-solid fa-newspaper"></i>Blog</a></li>
+
+                    <li><a href="partners.php" title="Partnership"><i class="fas fa-handshake"></i>Become a partner</a></li>
+                   
+                    <li id="login"><a href="request_demo.php" title="Request demo"><i class="fas fa-headset"></i> Contact Us</a></li>
                 </ul>
             </nav>
             <div class="menu-icon" onclick="displayMenu()"><a href="javascript:void(0);"><i class="fas fa-bars"></i></a></div>

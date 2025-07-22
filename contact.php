@@ -18,7 +18,7 @@
                         <img src="images/banner6.jpg" alt="icht">
                     </div>
                     <div class="taglines">
-                        <h2>Contact us</h2>
+                        <h1>Contact us</h1>
                         <!-- <p>We bring exceptional care close to you. Consult a Doctor any time, any day.</p> -->
                         <!-- <div class="btns">
                             <a href="javascrip:void(0);" class="showRequest">Schedule an Appointment Now</a>
@@ -38,7 +38,7 @@
             
             <div class="intro" id="intro_title">
                 <p>get in touch</p>
-                <p>Whether you are looking to launch a new project or enhance an existing one, Onostar Media is here to collaborate with you. Contact us today to learn more about how we can help you achieve your software development & IT goals.</p>
+                <p>Whether you’re looking to launch a new project or enhance an existing one, Onostar Media is here to collaborate with you. Reach out to us today and let’s build something impactful together.</p>
                 <div class="add_info">
                     <i class="fas fa-street-view"></i>
                     <p>Our Head office is located at 1 Ogidan street, Off Atican Beachview Estate, Okun-ajah, Ajah, Lagos state, Nigeria</p>
@@ -53,7 +53,7 @@
                 </div>
                 <div class="add_info">
                     <i class="fas fa-envelope"></i>
-                    <p>Send us an email at info@onostarmedia.com, contact@onostarmedia.com</p>
+                    <p>Send us an email at info@dorthprosuite.com, contact@dorthprosuite.com</p>
                 </div>
             </div>
             <div class="invest_form">

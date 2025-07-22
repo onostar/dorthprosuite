@@ -15,89 +15,75 @@
             <div class="about_banner">
                 <div class="slide">
                     <div class="banner_img">
-                        <img src="images/wallpaper.jpg" alt="about us">
+                        <img src="images/fotoban.jpg" alt="about us">
                     </div>
                     <div class="taglines">
-                        <h2>About us</h2>
-                        <!-- <p>We bring exceptional care close to you. Consult a Doctor any time, any day.</p> -->
-                        <!-- <div class="btns">
-                            <a href="javascrip:void(0);" class="showRequest">Schedule an Appointment Now</a>
-                            <a href="contact.html">Get a Quote</a>
-                        </div> -->
+                        <h1>About us</h1>
                     </div>
                 </div>
                 
             </div>
         </div>
-        <!-- <div class="client_assess">
-            <a href="#reqMaster">Client Assessment Form</a><i class="fas fa-plus"></i>
-        </div> -->
     </section>
     <main>
         <section id="existence">
-            <h2>Get to know us</h2>
+            <h2>Get to Know Us</h2>
             <hr>
-            <h3>Our Existence</h3>
+            <h3>Our Story</h3>
             <div class="story">
-                <p id="first_story">Dorthpro is an all in one Software suite customized for the modern day business. It is basically an inventory and sales management system with other customized features embedded in it, which include, purchase, financial management, expenses, and more.<br><br>Dorthpro was developed by Onostar media. At Onostar Media, we pride ourselves on being a leading software development company that specializes in creating customized solutions for a wide range of businesses. 
-                We serve a diverse portfolio of clients ranging from startups to enterprises across industries such as manufacturing, supermarkets & retail, e-commerce, pharmacies, Hospitals & Diagnostics, hotels, bars, restaurants, lEducation, etc.<br><br>
-                Established in 2019, we have grown into a leading provider of bespoke software development services tailored to meet the diverse needs of our global clientele. Our commitment to excellence and client satisfaction has earned us long-term partnerships and accolades within the industry.
-<br><br>
- 
-Our team of skilled developers works tirelessly to design and implement software that streamlines processes, increases efficiency, and maximizes productivity. We understand that every business is different, which is why we take the time to listen to our clients and tailor our solutions to their specific requirements.
-<br><br>
-Whether you are a small retail store looking to improve your sales tracking or a large hotel chain in need of a comprehensive management system, we have the knowledge and experience to deliver results. Our commitment to excellence and customer satisfaction sets us apart from the competition, and we take pride in the positive impact our software solutions have on our clients' businesses.<br><br> 
-So if you are looking for a software development company that is dedicated to providing top-notch, customized solutions for your business, look no further. Contact us today to learn more about how we can help take your company to the next level.<br><br>
-Onostar media also offers specialized ICT services such as computer networking, CCTV installations and mentainance, training on software development and security surveillance systems, as well general ICT consultation.
- 
-                <img src="images/banner.jpg" alt="banner">
-                <br>
-                    
-                    <a id="invest_link" href="contact.php" title="contact us">Contact us <i class="fas fa-paper-plane"></i></a>
+                <p id="first_story">
+                <strong>DorthProSuite</strong> is the flagship all-in-one business platform by <strong>Onostar Media</strong>, a Nigerian software company committed to solving real operational challenges faced by African businesses.
+                <br><br>
+                Built from years of field experience, DorthProSuite empowers businesses across retail, healthcare, education, hospitality, and finance to manage sales, inventory, operations, reporting, and customer engagement — all in one unified system.
+                <br><br>
+                Whether you run a pharmacy, hospital, school, lounge, supermarket, or microfinance firm, DorthProSuite adapts to your workflow, helping you save time, reduce errors, and scale with confidence. Each product under the suite is tailored to the specific needs of its sector — with smart features that work both online and offline.
+                <br><br>
+                Launched by Onostar Media in 2019, we’ve grown into a trusted provider of specialized software solutions that are simple, powerful, and made for African realities. Our commitment is to deliver scalable software that’s easy to use, affordable, and backed by strong customer support.
+                <br><br>
+                <strong>More Than Just Software</strong><br>
+                While DorthProSuite is our flagship product, Onostar Media also offers customized software development, ICT services, network setups, CCTV installations, and training in modern software and surveillance technologies.
+                <br><br>
+                <a id="invest_link" href="contact.php" title="Contact us">Contact us <i class="fas fa-paper-plane"></i></a>
                 </p>
+
                 <div class="more_notes" style="height:auto">
-
-                    <h3>What Sets Us Apart</h3>
-                    <P>
-                        <ul>
-                            <li><strong>Expertise:</strong> Our team comprises talented software engineers and developers with deep expertise across various domains and technologies.</li><br>
-                            <li><strong>Innovation:</strong> We embrace creativity and innovation to develop solutions that are at the forefront of technological advancements.</li><br>
-                            <li><strong>Client-centric Approach:</strong> We prioritize understanding our clients' unique challenges and goals to deliver customized solutions that address their specific needs.</li><br>
-                            <li><strong>Quality Assurance:</strong> Rigorous testing and quality assurance processes ensure that our solutions are reliable, efficient, and scalable.</li><br>
-                            <li><strong>Continuous Improvement:</strong> We are committed to continuous learning and improvement, staying updated with the latest trends and technologies in software development.</li><br>
-                        </ul>
-
-                    </p>
-                    <img src="images/banner4.jpg" alt="about">
-
+                <h3>Why Choose DorthProSuite</h3>
+                <ul>
+                    <li><strong>Industry-Focused:</strong> Solutions built specifically for retail, healthcare, education, hospitality, and financial sectors.</li><br>
+                    <li><strong>All-in-One:</strong> Manage everything — sales, inventory, expenses, customers, and staff — from one smart platform.</li><br>
+                    <li><strong>Online Access:</strong> Access your business dashboard securely from anywhere with an internet connection—real-time data, always up-to-date.</li><br>
+                    <li><strong>Customizable & Scalable:</strong> Every business is different. DorthProSuite can be tailored to fit your unique workflow.</li><br>
+                    <li><strong>Trusted Support:</strong> Backed by the experienced team at Onostar Media, you're never alone in your journey.</li><br>
+                </ul>
+                <img src="images/banner4.jpg" alt="about">
                 </div>
             </div>
-        </section>
+            </section>
          <!-- hero -->
-         <section id="hero">
+        <section id="hero">
             <div class="hero_image">
-                <img src="images/hero.jpg" alt="hero image">
+                <img src="images/hero.jpg" alt="DorthProSuite Hero Image">
             </div> 
             <div class="hero_notes">
                 <div class="note">
                     <i class="fas fa-briefcase"></i>
                     <h3>100+</h3>
-                    <p>Projects Completed</p>
+                    <p>Completed Projects</p>
                 </div>
                 <div class="note">
-                <i class="fas fa-user-tie"></i>
-                    <h3>22</h3>
-                    <p>IT Specialists</p>
+                    <i class="fas fa-user-cog"></i>
+                    <h3>20+</h3>
+                    <p>Skilled Developers</p>
                 </div>
                 <div class="note">
-                    <i class="fab fa-uncharted"></i>
-                    <h3>6</h3>
-                    <p>Smart Solutions</p>
+                    <i class="fas fa-layer-group"></i>
+                    <h3>6+</h3>
+                    <p>Industry Solutions</p>
                 </div>
                 <div class="note">
-                    <i class="fas fa-users"></i>
+                    <i class="fas fa-smile"></i>
                     <h3>100+</h3>
-                    <p>Satsified Clients</p>
+                    <p>Satisfied Clients</p>
                 </div>
             </div>
         </section>

@@ -28,7 +28,7 @@
                         <i class="fas fa-envelope-open-text"></i>
                         <div class="addtext">
                             <h4>Email:</h4>
-                            <p>info@dorthpro.com, contact@dorthpro.com</p>
+                            <p>info@dorthprosuite.com, contact@dorthprosuite.com</p>
                         </div>
                     </div>
                     <div class="socialMedia">
@@ -65,10 +65,10 @@
                         <h3>Quick Links</h3>
                         <div class="categories">
                             <li><a href="about.php">About us</a></li>
-                            <!-- <li><a href="#">Career Opportunities</a></li>
-                            <li><a href="#"></a></li> -->
-                            <li><a href="onostarmedia.dorthpro.com#core_service">Other Products</a></li>
-                            <li><a href="https://wa.me/+2347068897068" target="_blank">Contact</a></li>
+                            <li><a href="partnership.php">Become a partner</a></li>
+                            <li><a href="#"></a></li>
+                            <li><a href="https://dorthprosuite.com#core_service">Products</a></li>
+                            <li><a href="contact.php" target="_blank">Contact</a></li>
                             <li><a href="tutorials.php" target="_blank">Training</a></li>
                             
                             

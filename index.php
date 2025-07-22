@@ -2,9 +2,9 @@
 
 <?php 
     $title = "Dorthpro Suite | Powerful Business Software for Africa";
-    // include "controller/connections.php";
-    include "company/classes/dbh.php";
-    include "company/classes/select.php";
+    include "controller/connections.php";
+    include "admin/classes/dbh.php";
+    include "admin/classes/select.php";
     include ('head.php');
     
 ?>
@@ -53,7 +53,7 @@
 
                     <li><a href="partners.php" title="Partnership"><i class="fas fa-handshake"></i>Become a partner</a></li>
                    
-                    <li id="login"><a href="contact.php" title="Request demo"><i class="fas fa-headset"></i> Contact Us</a></li>
+                    <li id="login"><a href="request_demo.php" title="Request demo"><i class="fas fa-headset"></i> Request Live demo</a></li>
                 </ul>
             </nav>
             <div class="menu-icon" onclick="displayMenu()"><a href="javascript:void(0);"><i class="fas fa-bars"></i></a></div>
@@ -92,7 +92,7 @@
         <section id="about_us">
             <div class="about_banner">
                 <div class="clients">
-                    <img src="images/development.jpeg" alt="banner">
+                    <img src="images/coding.jpg" alt="banner">
                 </div>
             </div>
             <div class="about_text">
@@ -100,11 +100,7 @@
                 <h2>Empowering African Businesses with Smart, Affordable Software!</h2>
                 <div class="notes">
                     <div class="notes_1">
-                        <p>Onostar Media is a Nigerian-based software company focused on building powerful, easy-to-use business solutions tailored for Africa. With years of hands-on experience working with retail stores, healthcare providers, schools, hotels, financial institutions, and other growing businesses, we understand the local challenges — and build technology that truly fits.</p><br>
-                        <p>We believe technology should simplify, not complicate — and that’s why we created <strong>DorthProSuite</strong>.</p><br>
-                        <h4>What is DorthProSuite?</h4>
-                        <p>DorthProSuite is our flagship all-in-one software platform designed to help businesses across industries manage sales, inventory, operations, customer engagement, and reporting — all in one place. Whether you're running a pharmacy, hospital, school, hotel, lounge, or a microfinance institution, DorthProSuite gives you the tools to operate smarter, faster, and more efficiently.<br>Our goal is to power African businesses with customizable, scalable software at prices they can afford — without compromising on quality or support..<br>
-                       </p>
+                        Onostar Media is a Nigerian software company dedicated to building simple, powerful tools that solve real business problems across Africa. Backed by years of hands-on experience, we created <strong>DorthProSuite</strong> — an all-in-one platform designed to help businesses run operations smarter, faster, and more efficiently. From retail and healthcare to education, hospitality, and finance, our solutions are built to fit African businesses and help them grow.</p>
                         <a href="about.php"class="about_btn">Read more <i class="fas fa-paper-plane"></i></a>
                     </div>
                     
@@ -268,9 +264,9 @@
                 </figure>
 
                 <figure>
-                    <img src="images/lab_icon.png" alt="icon">
+                    <img src="images/hospital_icon.png" alt="icon">
                     <figcaption>
-                        <h3>DorthPro Hospital System</h3>
+                        <h3>DorthPro Hospital Management</h3>
                         <p>Complete hospital and clinic solution — manage patient records, appointments, consultations, labs, pharmacy, billing, and corporate accounts in one place.</p><br>
                         <a href="dorthpro_health.php">View Details <i class="fas fa-paper-plane"></i></a>
                     </figcaption>
@@ -295,7 +291,7 @@
                 </figure>
 
                 <figure>
-                    <img src="images/loan_icon.jpg" alt="icon">
+                    <img src="images/loan_icon.png" alt="icon">
                     <figcaption>
                         <h3>DorthPro Loan & Microfinance</h3>
                         <p>Loan management made simple — automate applications, approvals, disbursements, repayments, interest tracking, penalties, and reports. Built for microfinance and cooperatives.</p><br>
@@ -304,7 +300,7 @@
                 </figure>
 
                 <figure>
-                    <img src="images/school_icon.jpg" alt="icon">
+                    <img src="images/school_app.png" alt="icon">
                     <figcaption>
                         <h3>DorthPro School Manager</h3>
                         <p>All-in-one school management solution — admissions, attendance, grading, fees, communication, and academic records — all on one platform.</p><br>
@@ -352,20 +348,32 @@
             <!-- <h4>We work with Amazing Clients</h4> -->
             <div class="partners">
                 <figure>
-                    <img src="images/asgard.jpg" alt="partners">
+                    <img src="images/asgard.jpg" alt="partners" loading="lazy">
                     <figcaption>Asgard Lounge & Restaurant</figcaption>
                 </figure>
                 <figure>
-                    <img src="images/creamella.jpg" alt="partners">
+                    <img src="images/medcafe.jpg" alt="partners">
+                    <figcaption>Medcafe Pharmacy, Abuja</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/icon1.png" alt="partners">
+                    <figcaption>Cure Corner Pharmacy</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/creamella.jpg" alt="partners" loading="lazy">
                     <figcaption>Creamella Foods Ltd</figcaption>
                 </figure>
-                <!-- <figure>
-                    <img src="images/icon1.png" alt="partners">
-                    <figcaption>Tonnac Recycling Technologies</figcaption>
-                </figure> -->
                 <figure>
-                    <img src="images/cavaz.jpg" alt="partners">
+                    <img src="images/vs_logo.png" alt="partners" loading="lazy">
+                    <figcaption>VS Supermarket</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/cavaz.jpg" alt="partners" loading="lazy">
                     <figcaption>Cavaz Chop House </figcaption>
+                </figure>
+                <figure>
+                    <img src="images/icon1.png" alt="partners" loading="lazy">
+                    <figcaption>Tetfund Urology Centre, UBTH</figcaption>
                 </figure>
                 <figure>
                     <img src="images/jevi.png" alt="partners">
@@ -380,25 +388,33 @@
                     <figcaption>Steel Coven Nig</figcaption>
                 </figure>
                 <figure>
+                    <img src="images/icon1.png" alt="partners" loading="lazy">
+                    <figcaption>OUD Store, Abuja</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/stjude_logo.png" alt="partners" loading="lazy">
+                    <figcaption>St.Jude Laboratory</figcaption>
+                </figure>
+                <figure>
                     <img src="images/roteech.webp" alt="partners">
                     <figcaption>Rotech</figcaption>
                 </figure>
                 <figure>
-                    <img src="images/real_care.png" alt="partners">
-                    <figcaption>Real care Pharmacy</figcaption>
+                    <img src="images/marzbee_logo.png" alt="partners" loading="lazy">
+                    <figcaption>Marzbee Hotel & Lounge</figcaption>
                 </figure>
-                <!-- <figure>
-                    <img src="images/icon1.png" alt="partners">
-                    <figcaption>D-Qubed Eatery</figcaption>
-                </figure> -->
-                <!-- <figure>
-                    <img src="images/goodies.jpg" alt="partners">
-                    <figcaption>Goodies Supermarket</figcaption>
-                </figure> -->
-                <!-- <figure>
+                <figure>
+                    <img src="images/vinta_logo.jpg" alt="partners" loading="lazy">
+                    <figcaption>Vinta Supermarket</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/dexdee_logo.jpg" alt="partners">
+                    <figcaption>Drifters Dexdee Golf Resort</figcaption>
+                </figure>
+                <figure>
                     <img src="images/icon1.png" alt="partners">
                     <figcaption>Solmik Supermarket</figcaption>
-                </figure> -->
+                </figure>
                 <figure>
                     <img src="images/ag.png" alt="partners">
                     <figcaption>AG Market place</figcaption>
@@ -411,10 +427,7 @@
                     <img src="images/bclassic.png" alt="partners">
                     <figcaption>B Classic Pharma</figcaption>
                 </figure>
-                <!-- <figure>
-                    <img src="images/icon1.png" alt="partners">
-                    <figcaption>Godwyn Market Place</figcaption>
-                </figure> -->
+                
                 <figure>
                     <img src="images/icon1.png" alt="partners">
                     <figcaption>Maxime Pharmacy</figcaption>
@@ -429,32 +442,17 @@
                 </figure> -->
             </div>
         </section>
-        <!-- call to action -->
-        <!-- <section id="investment">
-            <div class="intro">
-                <p>Unlock Your Potential with Expert Training</p>
-                <h2>Launch Your Career in Software Development!</h2>
-                <p>Are you Ready to dive into the dynamic world of software development? Our comprehensive training program is designed to equip you with the skills and knowledge needed to succeed in this rapidly growing field from frontend development to backend and Full Stack development.<br></p>
-                <a href="javascript:void(0)" class="showRequest"><i class="fa-solid fa-certificate"></i> Enroll Now <i class="fa-solid fa-angle-double-right"></i></a>
-            </div>
-            <div class="invest_img">
-                <img src="images/coding.jpg" alt="Training">
-
-            </div>
-        </section> -->
-        <!-- our products -->
-        <!-- <Section id="plans">
+        <Section id="plans">
             <h3 class="plans_title">Our Articles</h3>
             <h2>Check out our latest blog posts</h2>
-            <p class="first_p">We run all forms of investigations across the following departments</p>
             <div class="plans">
                 <?php
-                    // get only four products
-                    /* $get_products = $connectdb->prepare("SELECT SUBSTRING_INDEX (details, ' ', 12) AS details, title, article_id, photo, post_date FROM articles ORDER BY post_date DESC LIMIT 4");
+                    // get only four articles
+                    $get_products = $connectdb->prepare("SELECT SUBSTRING_INDEX (details, ' ', 10) AS details, title, article_id, photo, post_date FROM articles ORDER BY post_date DESC LIMIT 4");
                     $get_products->execute();
                     if($get_products->rowCount() > 0){
                         $rows = $get_products->fetchAll();
-                        foreach($rows as $row): */
+                        foreach($rows as $row):
                 ?>
                 <div class="plan_form" id="plan1">
                     <figure>
@@ -477,20 +475,16 @@
                     </figure>
                 </div>
                 
-                <?php /* endforeach; }else{ */?>
+                <?php endforeach; }else{?>
                 <p style="color:var(--moreColor); text-align:center">No New article</p>
-                <?php /* } */?>
+                <?php }?>
                 
             </div>
             
-                <?php /* if($get_products->rowCount() > 0){ */?>
+                <?php if($get_products->rowCount() > 0){?>
                     <a id="moreProjects" href="articles.php" title="View more products">View all articles <i class="fas fa-angle-double-right"></i></a>
-                <?php /* } */?>
-        </Section> -->
-        <!-- gallery -->
-        
-        
-        <!-- investment -->
+                <?php }?>
+        </Section>
         
         
         <!-- <section id="testimonies">
