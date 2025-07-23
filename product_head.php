@@ -1,11 +1,11 @@
-<?php ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <meta name="description" content="Run your retail, pharmacy, school, finance, hospital, or hotel business smarter with DorthProSuite — customizable software for sales, inventory, and operations.">
+    <meta name="description" content="<?= htmlspecialchars($description)?>">
     <meta name="keywords" content="POS software, hospital management system, school software Nigeria, hotel software Africa, inventory and sales app, accounting system, loan management software, restaurant and lounge management, business software for Africa, custom business software, affordable software solutions, DorthProSuite, DorthPro, Dorthpro suite, Dorthpro, Onostar Media">
     <meta name="author" content="Onostar Media">
     
@@ -14,7 +14,7 @@
     <meta property="og:type" content="website">
     <meta property="og:title" content="<?= $title ?>">
     <meta property="og:site_name" content="DorthProSuite">
-    <meta property="og:description" content="Run your retail, pharmacy, school, finance, hospital, or hotel business smarter with DorthProSuite — customizable software for sales, inventory, and operations.">
+    <meta property="og:description" content="<?= htmlspecialchars($description)?>">
     <meta property="og:image" content="images/icon.png">
     <meta property="og:image:width" content="300">
     <meta property="og:image:height" content="300">
@@ -22,7 +22,7 @@
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="<?= $title ?>">
-    <meta name="twitter:description" content="Run your retail, pharmacy, school, finance, hospital, or hotel business smarter with DorthProSuite — customizable software for sales, inventory, and operations.">
+    <meta name="twitter:description" content="<?= htmlspecialchars($description)?>">
     <meta name="twitter:image" content="https://dorthprosuite.com/images/icon.png">
     
     <title><?= htmlspecialchars($title) ?></title>

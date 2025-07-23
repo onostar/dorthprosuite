@@ -93,7 +93,7 @@
         <section id="about_us">
             <div class="about_banner">
                 <div class="clients">
-                    <img src="images/coding.jpg" alt="banner">
+                    <img src="images/dorthpro_suite.png" alt="banner">
                 </div>
             </div>
             <div class="about_text">

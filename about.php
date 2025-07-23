@@ -55,7 +55,7 @@
                     <li><strong>Customizable & Scalable:</strong> Every business is different. DorthProSuite can be tailored to fit your unique workflow.</li><br>
                     <li><strong>Trusted Support:</strong> Backed by the experienced team at Onostar Media, you're never alone in your journey.</li><br>
                 </ul>
-                <img src="images/banner4.jpg" alt="about">
+                <img src="images/dorthpro_desktop_view.png" alt="about">
                 </div>
             </div>
             </section>

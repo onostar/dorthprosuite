@@ -1,6 +1,6 @@
 <?php 
-    $title = "Dorthpro Point of Sales & Inventory management";
-    $description = "Sell faster and manage stock, sales, and expenses across multiple stores with DorthPro POS — built for retail, wholesale, and pharmacy businesses.";
+    $title = "DorthPro Hotel & Lounge Management Software";
+    $description = "All-in-one cloud hotel software for bookings, billing, restaurant orders, and guest management — simple, secure, and accessible anywhere.";
     include "controller/connections.php";
     include "admin/classes/dbh.php";
     include "admin/classes/select.php";
@@ -12,11 +12,11 @@
         #aboutBanner {
             height: 90vh;
         }
+
         .taglines a {
             padding: 12px;
             border-radius: 15px;
         }
-
         /* Feature Section */
         #features {
             width: 90%;
@@ -61,14 +61,14 @@
         <div class="slides">
             <div class="slide">
                 <div class="banner_img">
-                    <img src="images/wallpaper3.webp" alt="POS software banner">
+                    <img src="images/hotel.webp" alt="hotel software banner">
                 </div>
                 <div class="taglines">
                     <div class="taglines_note">
-                        <h1>DorthPro Sales & Inventory System</h1>
-                        <p>Run your retail or wholesale business smarter with real-time stock, sales, and expense tracking.</p>
+                        <h1>DorthPro Hotel & Lounge Manager</h1>
+                        <p>Run your hotel, bar, and restaurant with ease — automate bookings, guest check-in/out, inventory, and billing.</p>
                         <div class="btns">
-                            <a href="https://wa.me/2347068897068?text=Hi, I'm interested in DorthProSuite Point of sales and inventory software" target="_blank">Get Started <i class="fab fa-whatsapp"></i></a>
+                            <a href="https://wa.me/2347068897068?text=Hi, I'm interested in DorthProSuite Hotel and Lounge management software" target="_blank">Get Started <i class="fab fa-whatsapp"></i></a>
                             <a href="request_demo.php">Request Demo <i class="fas fa-play-circle"></i></a>
                         </div>
                     </div>
@@ -82,41 +82,41 @@
         <!-- What Ydorthpro is -->
         <section id="features">
             <div class="features">
-                <h3>DorthPro POS: The Smarter Way to Run Your Business</h3>
-                <h4>All-in-One Point of Sale & Inventory Solution</h4>
-                <p>DorthPro is a powerful cloud-based sales and inventory software built for modern retail and wholesale businesses. Whether you manage a pharmacy, supermarket, fashion store, or distribution outlet — DorthPro helps you sell faster, track stock in real-time, and stay on top of every transaction.</p>
-                <p>Over 100 businesses rely on DorthPro daily, processing more than 50,000 transactions every month with ease, accuracy, and peace of mind.</p>
+                <h3>DorthPro Hotel: Your Complete Hotel Management Solution</h3>
+                <h4>Manage Your Rooms, Guests, Restaurant & Lounge — All In One Platform</h4>
+                <p>DorthPro Hotel is built to simplify day-to-day hotel operations. From guest check-in and reservations to bar and kitchen inventory tracking, billing, and staff monitoring — everything is fully integrated, cloud-based, and easy to use.</p>
+                <p>Trusted by boutique hotels, lounges, and resorts for delivering seamless hospitality experiences.</p>
                 <hr>
                 <div class="feats">
                     <div class="feat">
-                        <i class="fa-solid fa-bolt"></i>
+                        <i class="fas fa-bed"></i>
                         <div class="feat_details">
-                            <h3>Fast & Seamless Checkout</h3>
-                            <p>Speed up sales and reduce queues with an interface optimized for efficiency.</p>
+                            <h3>Guest Check-In/Out</h3>
+                            <p>Manage room assignments, durations, and track guest activity in real time.</p>
                         </div>
                     </div>
 
                     <div class="feat">
-                        <i class="fa-solid fa-cloud"></i>
+                        <i class="fas fa-utensils"></i>
                         <div class="feat_details">
-                            <h3>100% Cloud-Based</h3>
-                            <p>Access your business from anywhere on any device. No servers, no maintenance headaches.</p>
+                            <h3>Bar & Kitchen Orders</h3>
+                            <p>Link kitchen/bar sales to rooms or direct walk-ins. Reduce delays and eliminate manual mix-ups.</p>
                         </div>
                     </div>
 
                     <div class="feat">
-                        <i class="fa-solid fa-laptop"></i>
+                        <i class="fas fa-receipt"></i>
                         <div class="feat_details">
-                            <h3>User-Friendly & Intuitive</h3>
-                            <p>Anyone can use it — no technical training needed. Designed for simplicity and speed.</p>
+                            <h3>Automated Billing</h3>
+                            <p>Consolidate all charges per guest (lodging, food, extras) and generate receipts with one click.</p>
                         </div>
                     </div>
 
                     <div class="feat">
-                        <i class="fa-solid fa-chart-line"></i>
+                        <i class="fas fa-chart-pie"></i>
                         <div class="feat_details">
-                            <h3>Insightful Reports</h3>
-                            <p>Track performance, profits, and stock movement with intelligent real-time reports.</p>
+                            <h3>Live Dashboard & Reports</h3>
+                            <p>See today’s check-ins, revenue, bookings, and inventory from one easy dashboard.</p>
                         </div>
                     </div>
                 </div>
@@ -130,65 +130,65 @@
 
         <!-- Why Choose DorthPro -->
         <section id="amenities">
-            <h3>Why Choose DorthPro POS?</h3>
-            <hr>
-            <h2>Powerful Features to Grow Your Business</h2>
+            <h3 style="color:#222">Why Choose DorthPro Hotel?</h3>
+            <hr style="color:#222; background:#222">
+            <!-- <h2>Powerful Features to Grow Your Business</h2> -->
             <div class="amenities">
                 <div class="offer">
-                    <i class="fas fa-store"></i>
+                    <i class="fas fa-hotel"></i>
                     <div class="offer_info">
-                        <h4>Multi-Store Management</h4>
-                        <p>Manage inventory, staff, and reports across multiple locations — all from a single dashboard.</p>
+                        <h4>Room Management</h4>
+                        <p>Track room availability, cleaning status, bookings, and guest history in one place.</p>
                     </div>
                 </div>
 
                 <div class="offer">
-                    <i class="fas fa-users-cog"></i>
+                    <i class="fas fa-concierge-bell"></i>
                     <div class="offer_info">
-                        <h4>Role-Based Access</h4>
-                        <p>Control what each staff can see or do. Create custom permissions for users, cashiers, or managers.</p>
+                        <h4>Restaurant & Bar Integration</h4>
+                        <p>Connect kitchen, POS, and rooms — charge guests or customers instantly and accurately.</p>
                     </div>
                 </div>
 
                 <div class="offer">
-                    <i class="fas fa-chart-line"></i>
+                    <i class="fas fa-user-lock"></i>
                     <div class="offer_info">
-                        <h4>Real-Time Reports</h4>
-                        <p>Know what’s selling, what’s left in stock, and your profits — instantly, from anywhere.</p>
-                    </div>
-                </div>
-
-                <div class="offer">
-                    <i class="fas fa-barcode"></i>
-                    <div class="offer_info">
-                        <h4>Barcode & Receipt Printing</h4>
-                        <p>Supports barcode scanning, price tag printing, and custom receipt formats for any industry.</p>
-                    </div>
-                </div>
-
-                <div class="offer">
-                    <i class="fas fa-warehouse"></i>
-                    <div class="offer_info">
-                        <h4>Stock Management</h4>
-                        <p>Track incoming and outgoing products, set reorder alerts, soon to expire items, and monitor inventory across stores and warehouses.</p>
+                        <h4>Staff Roles & Security</h4>
+                        <p>Assign access to only what staff need — reception, kitchen, management, etc.</p>
                     </div>
                 </div>
 
                 <div class="offer">
                     <i class="fas fa-coins"></i>
                     <div class="offer_info">
-                        <h4>Sales, Expenses & Profit</h4>
-                        <p>Record income and expenses, view profit margins daily, and track financial health in one place.</p>
+                        <h4>Payments & Profit Tracking</h4>
+                        <p>Monitor daily revenue, outstanding balances, and full financial breakdowns.</p>
+                    </div>
+                </div>
+
+                <div class="offer">
+                    <i class="fas fa-calendar-alt"></i>
+                    <div class="offer_info">
+                        <h4>Advance Booking & Walk-ins</h4>
+                        <p>Book in advance, reserve rooms, or admit instant guests — all streamlined into your system.</p>
+                    </div>
+                </div>
+
+                <div class="offer">
+                    <i class="fas fa-file-invoice"></i>
+                    <div class="offer_info">
+                        <h4>Receipts & Invoicing</h4>
+                        <p>Print branded receipts and invoices for lodging, meals, and bar purchases instantly.</p>
                     </div>
                 </div>
             </div>
         </section>
         <!-- Product Demo Video -->
         <section id="product_video">
-            <h3>Watch DorthPro POS in Action</h3>
-            <p>This short demo shows how DorthPro helps you manage stock, sales, reports, and more — all from your browser.</p>
+            <h3>Watch How Dorthpro Hotel Works</h3>
+            <!-- <p>This short demo shows how DorthPro helps you manage stock, sales, reports, and more — all from your browser.</p> -->
             <div class="video_wrapper">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/oidp8euDROc?si=LHx_LRuSGVeNxqb9" title="Dorthpro POS Demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/wonWP9ni9fM?si=AYS2X9tNmbi9X_XQ" title="Dorthpro Hotel Demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             </div>
         </section>
         <!-- testimonials -->
@@ -199,40 +199,39 @@
                 <div class="testimonies">
                     <div class="testimony">
                         <div class="test_note">
-                            <p>"DorthPro completely changed the way we manage inventory across our branches. Transferring stock between locations is now seamless, and the platform is both reliable and incredibly easy to use."</p>
+                            <p>"We used to struggle with tracking room occupancy and bar sales separately. Now with DorthPro Hotel, everything is synced in real time. Billing is fast and guests are happier"</p>
                             <div class="testifier">
-                                <img src="images/vinta_logo.jpg" alt="testifier">
-                                <span>- CEO, Vinta Supermarket</span>
+                                <img src="images/dexdee_logo.jpg" alt="testifier">
+                                <span>- Mr. Desmond, Dexdee Resort</span>
                             </div>
                         </div>
                     </div>
 
                     <div class="testimony">
                         <div class="test_note">
-                            <p>"I can now track sales and profits, drug expirations, as well as manage patient consultations in real time even while traveling. Highly recommend."</p>
+                            <p>"Running our bar and restaurant used to be stressful—orders got mixed up, and tracking stock was a mess. Since we switched to DorthPro Hotel, everything is organized. From table orders to stock control and daily reports, the system handles it smoothly. It’s like having an extra manager on duty!"</p>
                             <div class="testifier">
-                                <img src="images/elgra.jpg" alt="testifier">
-                                <span>- Pharm Daniel, Elgra Pharmacy</span>
+                                <img src="images/asgard.jpg" alt="testifier">
+                                <span>- Accountant, Asgard Lounge</span>
                             </div>
                         </div>
                     </div>
-
                     <div class="testimony">
                         <div class="test_note">
-                            <p>"Using DorthPro helped us reduce stock losses and manage our Supermarket sales better. It’s perfect for growing businesses like ours."</p>
-                            <div class="testifier">
-                                <img src="images/ag.png" alt="testifier">
-                                <span>- Mrs. Winifred, AG Market Place</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="testimony">
-                        <div class="test_note">
-                            <p>"We manage multiple stores with ease using DorthPro. The multi-user and reporting features are top-notch and simplified our daily operations."</p>
+                            <p>"Dqube Eatery runs smoother than ever since we started using DorthPro. Orders go straight from the counter to the kitchen, no mix-ups, no delays. Stock tracking, staff control, and daily sales are now super easy to manage. It's the best decision we've made for our business."</p>
                             <div class="testifier">
                                 <img src="images/icon.png" alt="testifier">
-                                <span>- Mr. John, J & B Global</span>
+                                <span>- Mrs. Edith, D-qube Eatery</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="testimony">
+                        <div class="test_note">
+                            <p>"Running our bar and restaurant used to be stressful—orders got mixed up, and tracking stock was a mess. Since we switched to DorthPro Hotel, everything is organized. From table orders to stock control and daily reports, the system handles it smoothly. It’s like having an extra manager on duty!"</p>
+                            <div class="testifier">
+                                <img src="images/asgard.jpg" alt="testifier">
+                                <span>- Accountant, Asgard Lounge</span>
                             </div>
                         </div>
                     </div>
@@ -246,52 +245,32 @@
             <h3>Some of Our Clients</h3>
             <div class="partners">
                 <figure>
-                    <img src="images/medcafe.jpg" alt="Client" loading="lazy">
-                    <figcaption>Medcafe Pharmacy, Abuja</figcaption>
+                    <img src="images/asgard.jpg" alt="Client" loading="lazy">
+                    <figcaption>Asgard Lounge</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/marzbee_logo.png" alt="Client" loading="lazy">
+                    <figcaption>Marzbee Hotel,Lagos</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/dexdee_logo.jpg" alt="Client" loading="lazy">
+                    <figcaption>Dexdee Resort</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/cavaz.jpg" alt="Client" loading="lazy">
+                    <figcaption>Cavaz Chop House</figcaption>
                 </figure>
                 <figure>
                     <img src="images/icon.png" alt="Client" loading="lazy">
-                    <figcaption>Cure Corner Pharmacy</figcaption>
-                </figure>
-                <figure>
-                    <img src="images/elgra.jpg" alt="Client" loading="lazy">
-                    <figcaption>Elgra Pharmacy</figcaption>
-                </figure>
-                <figure>
-                    <img src="images/vs_logo.png" alt="Client" loading="lazy">
-                    <figcaption>VS Supermarket</figcaption>
+                    <figcaption>D-Qube Eatery</figcaption>
                 </figure>
                 <figure>
                     <img src="images/icon.png" alt="Client" loading="lazy">
-                    <figcaption>Tetfund Urology Centre, UBTH</figcaption>
+                    <figcaption>Nicee Bakes</figcaption>
                 </figure>
                 <figure>
-                    <img src="images/icon.png" alt="Client" loading="lazy">
-                    <figcaption>J & B Care Global</figcaption>
-                </figure>
-                <figure>
-                    <img src="images/roteech.webp" alt="Client" loading="lazy">
-                    <figcaption>Rotech Supermarket</figcaption>
-                </figure>
-                <figure>
-                    <img src="images/vinta_logo.jpg" alt="Client" loading="lazy">
-                    <figcaption>Vinta Supermarket</figcaption>
-                </figure>
-                <figure>
-                    <img src="images/bclassic.png" alt="Client" loading="lazy">
-                    <figcaption>B Classic Pharma</figcaption>
-                </figure>
-                <figure>
-                    <img src="images/icon.png" alt="Client" loading="lazy">
-                    <figcaption>Anny Plus Pharmacy</figcaption>
-                </figure>
-                <figure>
-                    <img src="images/ag.png" alt="Client" loading="lazy">
-                    <figcaption>AG Market Place</figcaption>
-                </figure>
-                <figure>
-                    <img src="images/ethvan.jpg" alt="Client" loading="lazy">
-                    <figcaption>Wamok Pharmacy, Abuja</figcaption>
+                    <img src="images/icon.png" alt="Rossy tasty room" loading="lazy">
+                    <figcaption>Rossy tasty room</figcaption>
                 </figure>
                 
                 
@@ -316,11 +295,11 @@
         </section>
         <!-- hero section -->
         <section id="quote_request">
-            <h3>Ready to Take Control of Your Business?</h3>
-            <p>Start using DorthPro POS today. See how easy it is to manage sales, stock, and profits.</p><br>
+            <h3>Ready to Simplify Your Hotel and Lounge Operations</h3>
+            <p>Start using <strong>DorthPro Hotel</strong> today and experience seamless hospitality management — from bookings to bar, restaurant, and beyond.</p><br>
             <div class="block">
                 <a href="request_demo.php" style="background:var(--secondaryColor);font-size:1.1rem">Request a Free Demo <i class="fas fa-play-circle"></i></a>
-                <a href="https://wa.me/2347068897068?text=Hi, I'm interested in DorthProSuite Point of sales and inventory  software" target="_blank" style="font-size:1.1rem">Get Started <i class="fab fa-whatsapp"></i></a>
+                <a href="https://wa.me/2347068897068?text=Hi, I'm interested in DorthProSuite Hotel and Lounge management software" target="_blank" style="font-size:1.1rem">Get Started <i class="fab fa-whatsapp"></i></a>
             </div>
         </section>
         <!-- other products -->
@@ -328,11 +307,11 @@
                 <h3>Discover Other Dorthpro Products</h3>
                 <div class="core_services">
                     <figure>
-                        <img src="images/hotel_icon.png" alt="icon">
+                        <img src="images/pos_icon.jpg" alt="icon">
                         <figcaption>
-                            <h3>DorthPro Hotel & Lounge</h3>
-                            <p>Streamline guest check-ins, reservations, billing, and manage your bar and restaurant inventory from one easy-to-use platform.</p><br>
-                            <a href="hotel.php">View Details <i class="fas fa-paper-plane"></i></a>
+                            <h3>DorthPro POS</h3>
+                            <p>Powerful sales and inventory software for retail and wholesale stores, supermarkets, and pharmacies. Track stock, sales, expenses, and generate insightful business reports effortlessly.</p><br>
+                            <a href="sales_inventory.php">View Details <i class="fas fa-paper-plane"></i></a>
                         </figcaption>
                     </figure>
 
