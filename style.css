@@ -2528,7 +2528,7 @@ covid section
 /* testimonies */
 #testimonies{
     width:100%;
-    margin:100px auto;
+    margin:30px auto;
 }
 #testimonies{
     opacity:0;
@@ -5473,6 +5473,38 @@ header i{
     color: #555;
     margin: 0;
 }
+#product_video {
+    padding: 40px;
+    background: #f9f9f9;
+    text-align: center;
+}
+
+#product_video h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: var(--primaryColor);
+}
+
+#product_video p {
+    font-size: .9rem;
+    margin-bottom: 10px;
+}
+
+.video_wrapper {
+    max-width: 800px;
+    margin: 0 auto;
+    position: relative;
+    /* padding-bottom: 56.25%; */
+    height: 300px;
+}
+
+.video_wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
 
 /* mobile responsive */
 @media screen and (max-width: 800px){
@@ -6474,20 +6506,29 @@ header i{
     }
     #testimonies .box{
         width:80%;
-        height:100%;
+        /* height:100%; */
     }
     .welcome_plans p{
         width:90%;
+    }
+    .testimony{
+        height:100%!important;
     }
     .test_img{
         display:none;
     }
     .test_note{
         width:100%;
-        height:100%;
+        height:100%!important;
+    }
+    .test_note p{
+        font-size:.9rem!important;
     }
     .testifier img{
           display:block;
+    }
+    .testifier span{
+        font-size: 1rem!important;
     }
     .summary_reports{
         width:100%;
@@ -6669,5 +6710,15 @@ header i{
 
     .faq_item p {
         font-size: 0.95rem;
+    }
+    #product_video {
+        padding: 5px;
+    }
+    #product_video h3 {
+        font-size: 1.2rem;
+    }
+    .video_wrapper {
+        width: 100%;
+        height: 300px;
     }
 }

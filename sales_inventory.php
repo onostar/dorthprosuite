@@ -9,7 +9,7 @@
     <style>
         /* General Landing Page Fixes */
         #aboutBanner {
-            height: 80vh;
+            height: 90vh;
         }
 
         .taglines a {
@@ -87,20 +87,20 @@
 
     <main>
 
-        <!-- What You Get -->
+        <!-- What Ydorthpro is -->
         <section id="features">
             <div class="features">
-                <h3>What You Get with DorthPro</h3>
-                <h4>Reliable POS built for retail, wholesale, and modern businesses</h4>
-                <p>Whether you're running a pharmacy, supermarket, or distribution company, DorthPro helps you sell faster, track stock accurately, and make better decisions with real-time business data.</p>
-                <p>Trusted by over 100 businesses with more than 50,000 transactions processed monthly.</p>
+                <h3>DorthPro POS: The Smarter Way to Run Your Business</h3>
+                <h4>All-in-One Point of Sale & Inventory Solution</h4>
+                <p>DorthPro is a powerful cloud-based sales and inventory software built for modern retail and wholesale businesses. Whether you manage a pharmacy, supermarket, fashion store, or distribution outlet — DorthPro helps you sell faster, track stock in real-time, and stay on top of every transaction.</p>
+                <p>Over 100 businesses rely on DorthPro daily, processing more than 50,000 transactions every month with ease, accuracy, and peace of mind.</p>
                 <hr>
                 <div class="feats">
                     <div class="feat">
                         <i class="fa-solid fa-bolt"></i>
                         <div class="feat_details">
-                            <h3>Fast Transactions</h3>
-                            <p>Process sales quickly and reduce customer wait time with an optimized POS interface.</p>
+                            <h3>Fast & Seamless Checkout</h3>
+                            <p>Speed up sales and reduce queues with an interface optimized for efficiency.</p>
                         </div>
                     </div>
 
@@ -108,30 +108,31 @@
                         <i class="fa-solid fa-cloud"></i>
                         <div class="feat_details">
                             <h3>100% Cloud-Based</h3>
-                            <p>Access your business data securely from any device, anywhere, anytime — all you need is internet.</p>
+                            <p>Access your business from anywhere on any device. No servers, no maintenance headaches.</p>
                         </div>
                     </div>
 
                     <div class="feat">
                         <i class="fa-solid fa-laptop"></i>
                         <div class="feat_details">
-                            <h3>User-Friendly Interface</h3>
-                            <p>Intuitive layout designed for speed and ease — perfect even for new staff with minimal training.</p>
+                            <h3>User-Friendly & Intuitive</h3>
+                            <p>Anyone can use it — no technical training needed. Designed for simplicity and speed.</p>
                         </div>
                     </div>
 
                     <div class="feat">
                         <i class="fa-solid fa-chart-line"></i>
                         <div class="feat_details">
-                            <h3>Smart Business Reports</h3>
-                            <p>Track your sales, stock, profits, and staff performance in real time with intelligent, easy-to-read reports.</p>
+                            <h3>Insightful Reports</h3>
+                            <p>Track performance, profits, and stock movement with intelligent real-time reports.</p>
                         </div>
                     </div>
                 </div>
-
             </div>
+
             <div class="feature_img">
-                <img src="images/wallpaper3.webp" alt="Our services" loading="lazy">
+                <img src="images/dorthpro_desktop_view.png" alt="Dorthpro Desktop Interface" loading="lazy">
+                <img src="images/dorthpro_laptop_mobile.png" alt="Dorthpro laptop-mobile Interface" loading="lazy">
             </div>
         </section>
 
@@ -190,6 +191,14 @@
                 </div>
             </div>
         </section>
+        <!-- Product Demo Video -->
+        <section id="product_video">
+            <h3>Watch DorthPro POS in Action</h3>
+            <p>This short demo shows how DorthPro helps you manage stock, sales, reports, and more — all from your browser.</p>
+            <div class="video_wrapper">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/oidp8euDROc?si=LHx_LRuSGVeNxqb9" title="Dorthpro POS Demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </section>
         <!-- testimonials -->
         <section id="testimonies">
             <h3>What Our Clients Say</h3>
@@ -197,11 +206,8 @@
             <div class="box">
                 <div class="testimonies">
                     <div class="testimony">
-                        <div class="test_img">
-                            <img src="images/vinta_logo.jpg" alt="Vinta Supermarket">
-                        </div>
                         <div class="test_note">
-                            <p>"DorthPro transformed how we manage inventory across our branches. It's reliable and easy to use!"</p>
+                            <p>"DorthPro completely changed the way we manage inventory across our branches. Transferring stock between locations is now seamless, and the platform is both reliable and incredibly easy to use."</p>
                             <div class="testifier">
                                 <img src="images/vinta_logo.jpg" alt="testifier">
                                 <span>- CEO, Vinta Supermarket</span>
@@ -210,11 +216,8 @@
                     </div>
 
                     <div class="testimony">
-                        <div class="test_img">
-                            <img src="images/elgra.jpg" alt="Elgra Pharmacy">
-                        </div>
                         <div class="test_note">
-                            <p>"I can now track sales and profits, as well as manage patient consultations in real time even while traveling. Highly recommend."</p>
+                            <p>"I can now track sales and profits, drug expirations, as well as manage patient consultations in real time even while traveling. Highly recommend."</p>
                             <div class="testifier">
                                 <img src="images/elgra.jpg" alt="testifier">
                                 <span>- Pharm Daniel, Elgra Pharmacy</span>
@@ -223,9 +226,6 @@
                     </div>
 
                     <div class="testimony">
-                        <div class="test_img">
-                            <img src="images/brothers_pharmacy.jpg" alt="Brothers Pharmacy">
-                        </div>
                         <div class="test_note">
                             <p>"Using DorthPro helped us reduce stock losses and manage our Supermarket sales better. It’s perfect for growing businesses like ours."</p>
                             <div class="testifier">
@@ -236,9 +236,6 @@
                     </div>
 
                     <div class="testimony">
-                        <div class="test_img">
-                            <img src="images/mico.jpg" alt="Mico Stores">
-                        </div>
                         <div class="test_note">
                             <p>"We manage multiple stores with ease using DorthPro. The multi-user and reporting features are top-notch and simplified our daily operations."</p>
                             <div class="testifier">
@@ -257,53 +254,55 @@
             <h3>Some of Our Clients</h3>
             <div class="partners">
                 <figure>
-                    <img src="images/medcafe.jpg" alt="partners">
+                    <img src="images/medcafe.jpg" alt="Client" loading="lazy">
                     <figcaption>Medcafe Pharmacy, Abuja</figcaption>
                 </figure>
                 <figure>
-                    <img src="images/icon1.png" alt="partners">
+                    <img src="images/icon.png" alt="Client" loading="lazy">
                     <figcaption>Cure Corner Pharmacy</figcaption>
                 </figure>
                 <figure>
-                    <img src="images/vs_logo.png" alt="partners" loading="lazy">
-                    <figcaption>VS Supermarket</figcaption>
-                </figure>
-                <figure>
-                    <img src="images/icon1.png" alt="partners" loading="lazy">
-                    <figcaption>Tetfund Urology Centre, UBTH</figcaption>
-                </figure>
-                <figure>
-                    <img src="images/icon1.png" alt="partners">
-                    <figcaption>J & B Care Global</figcaption>
-                </figure>
-                <figure>
-                    <img src="images/roteech.webp" alt="partners">
-                    <figcaption>Rotech</figcaption>
-                </figure>
-                <figure>
-                    <img src="images/vinta_logo.jpg" alt="partners" loading="lazy">
-                    <figcaption>Vinta Supermarket</figcaption>
-                </figure>
-                <figure>
-                    <img src="images/ag.png" alt="partners">
-                    <figcaption>AG Market Place</figcaption>
-                </figure>
-                <figure>
-                    <img src="images/elgra.jpg" alt="partners">
+                    <img src="images/elgra.jpg" alt="Client" loading="lazy">
                     <figcaption>Elgra Pharmacy</figcaption>
                 </figure>
                 <figure>
-                    <img src="images/bclassic.png" alt="partners">
+                    <img src="images/vs_logo.png" alt="Client" loading="lazy">
+                    <figcaption>VS Supermarket</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/icon.png" alt="Client" loading="lazy">
+                    <figcaption>Tetfund Urology Centre, UBTH</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/icon.png" alt="Client" loading="lazy">
+                    <figcaption>J & B Care Global</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/roteech.webp" alt="Client" loading="lazy">
+                    <figcaption>Rotech Supermarket</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/vinta_logo.jpg" alt="Client" loading="lazy">
+                    <figcaption>Vinta Supermarket</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/bclassic.png" alt="Client" loading="lazy">
                     <figcaption>B Classic Pharma</figcaption>
                 </figure>
-            </div>
-        </section>
-       
-        <section id="quote_request">
-            <h3>Ready to Take Control of Your Business?</h3>
-            <p>Start using DorthPro POS today. See how easy it is to manage sales, stock, and profits.</p><br>
-            <div class="block">
-                <a href="request_demo.php" style="background:var(--secondaryColor)">Request a Free Demo <i class="fas fa-play-circle"></i></a>
+                <figure>
+                    <img src="images/icon.png" alt="Client" loading="lazy">
+                    <figcaption>Anny Plus Pharmacy</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/ag.png" alt="Client" loading="lazy">
+                    <figcaption>AG Market Place</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/ethvan.jpg" alt="Client" loading="lazy">
+                    <figcaption>Wamok Pharmacy, Abuja</figcaption>
+                </figure>
+                
+                
             </div>
         </section>
         <section id="faq">
@@ -320,6 +319,74 @@
                 <div class="faq_item">
                     <h4>Do you offer training?</h4>
                     <p>Yes. We provide onboarding and training during setup to ensure your team starts smoothly.</p>
+                </div>
+            </div>
+        </section>
+        <!-- hero section -->
+        <section id="quote_request">
+            <h3>Ready to Take Control of Your Business?</h3>
+            <p>Start using DorthPro POS today. See how easy it is to manage sales, stock, and profits.</p><br>
+            <div class="block">
+                <a href="request_demo.php" style="background:var(--secondaryColor);font-size:1.1rem">Request a Free Demo <i class="fas fa-play-circle"></i></a>
+            </div>
+        </section>
+        <!-- other products -->
+        <section id="core_service">
+                <h3>Discover Other Dorthpro Products</h3>
+                <div class="core_services">
+                    <figure>
+                        <img src="images/hotel_icon.png" alt="icon">
+                        <figcaption>
+                            <h3>DorthPro Hotel & Lounge</h3>
+                            <p>Streamline guest check-ins, reservations, billing, and manage your bar and restaurant inventory from one easy-to-use platform.</p><br>
+                            <a href="hotel.php">View Details <i class="fas fa-paper-plane"></i></a>
+                        </figcaption>
+                    </figure>
+
+                    <figure>
+                        <img src="images/hospital_icon.png" alt="icon">
+                        <figcaption>
+                            <h3>DorthPro Hospital Management</h3>
+                            <p>Complete hospital and clinic solution — manage patient records, appointments, consultations, labs, pharmacy, billing, and corporate accounts in one place.</p><br>
+                            <a href="hospital.php">View Details <i class="fas fa-paper-plane"></i></a>
+                        </figcaption>
+                    </figure>
+
+                    <figure>
+                        <img src="images/lab_icon.png" alt="icon">
+                        <figcaption>
+                            <h3>DorthPro Laboratory System</h3>
+                            <p>Manage all diagnostic center operations — test requests, sample tracking, results reporting, doctor access, billing, and patient records — all in one system.</p><br>
+                            <a href="laboratory.php">View Details <i class="fas fa-paper-plane"></i></a>
+                        </figcaption>
+                    </figure>
+
+                    <figure>
+                        <img src="images/accounting.jpg" alt="icon">
+                        <figcaption>
+                            <h3>DorthPro Accounting</h3>
+                            <p>Full-featured accounting software with invoicing, asset management, depreciation tracking, and key financial statements like cash flow, profit & loss, and balance sheet.</p><br>
+                            <a href="accounting.php">View Details <i class="fas fa-paper-plane"></i></a>
+                        </figcaption>
+                    </figure>
+
+                    <figure>
+                        <img src="images/loan_icon.png" alt="icon">
+                        <figcaption>
+                            <h3>DorthPro Loan & Microfinance</h3>
+                            <p>Loan management made simple — automate applications, approvals, disbursements, repayments, interest tracking, penalties, and reports. Built for microfinance and cooperatives.</p><br>
+                            <a href="microfinance.php">View Details <i class="fas fa-paper-plane"></i></a>
+                        </figcaption>
+                    </figure>
+
+                    <figure>
+                        <img src="images/school_app.png" alt="icon">
+                        <figcaption>
+                            <h3>DorthPro School Manager</h3>
+                            <p>All-in-one school management solution — admissions, attendance, grading, fees, communication, and academic records — all on one platform.</p><br>
+                            <a href="school.php">View Details <i class="fas fa-paper-plane"></i></a>
+                        </figcaption>
+                    </figure>
                 </div>
             </div>
         </section>
