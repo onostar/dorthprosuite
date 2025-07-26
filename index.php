@@ -311,12 +311,13 @@
             </div>
         </div>
     </section>
-        <!-- quote in full -->
         <section id="quote_request">
-            <h3>TOGETHER WE INNOVATE THE FUTURE</h3>
-            <p>Looking for other Customized software solutions, We are an enterprise software development company that is inspired by the future. Our success is directly derived from the continued success of our Clients in health, retail, hospitality and other sectors of business.<br>We are dedicated to always delivering on our promise to be the results driven partner that our Clients expect. When it comes to Customized Applications, we are your ideal partner</p><br>
+            <h3>Innovating the Future, Together</h3>
+            <p>At Onostar Media, we specialize in building smart, reliable software tailored for businesses in healthcare, retail, finance, hospitality, and beyond.  
+            <br>From point-of-sale systems to hospital, lab, accounting, and microfinance platforms — our solutions are designed to help you scale faster and work smarter.
+            <br>Partner with us to turn your vision into powerful, result-driven software.</p><br>
             <div class="block">
-                <a href="https://www.onostarmedia.dorthpro.com" target="_blank">View other Solutions <i class="fas fa-paper-plane"></i></a>
+                <a href="https://www.onostarmedia.dorthpro.com" target="_blank">Explore More Solutions <i class="fas fa-paper-plane"></i></a>
             </div>
         </section>
         <!--Partners -->
@@ -333,8 +334,12 @@
                     <figcaption>Medcafe Pharmacy, Abuja</figcaption>
                 </figure>
                 <figure>
-                    <img src="images/icon1.png" alt="partners">
+                    <img src="images/icon.png" alt="partners">
                     <figcaption>Cure Corner Pharmacy</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/enascolin.jpg" alt="partners">
+                    <figcaption>Enascolin Ventures</figcaption>
                 </figure>
                 <figure>
                     <img src="images/creamella.jpg" alt="partners" loading="lazy">
@@ -349,7 +354,7 @@
                     <figcaption>Cavaz Chop House </figcaption>
                 </figure>
                 <figure>
-                    <img src="images/icon1.png" alt="partners" loading="lazy">
+                    <img src="images/icon.png" alt="partners" loading="lazy">
                     <figcaption>Tetfund Urology Centre, UBTH</figcaption>
                 </figure>
                 <figure>
@@ -357,7 +362,7 @@
                     <figcaption>Jevi Austin Int. Co </figcaption>
                 </figure>
                 <figure>
-                    <img src="images/icon1.png" alt="partners">
+                    <img src="images/icon.png" alt="partners">
                     <figcaption>J & B Care Global</figcaption>
                 </figure>
                 <figure>
@@ -365,7 +370,7 @@
                     <figcaption>Steel Coven Nig</figcaption>
                 </figure>
                 <figure>
-                    <img src="images/icon1.png" alt="partners" loading="lazy">
+                    <img src="images/icon.png" alt="partners" loading="lazy">
                     <figcaption>OUD Store, Abuja</figcaption>
                 </figure>
                 <figure>
@@ -389,7 +394,7 @@
                     <figcaption>Drifters Dexdee Golf Resort</figcaption>
                 </figure>
                 <figure>
-                    <img src="images/icon1.png" alt="partners">
+                    <img src="images/icon.png" alt="partners">
                     <figcaption>Solmik Supermarket</figcaption>
                 </figure>
                 <figure>
@@ -406,7 +411,7 @@
                 </figure>
                 
                 <figure>
-                    <img src="images/icon1.png" alt="partners">
+                    <img src="images/icon.png" alt="partners">
                     <figcaption>Maxime Pharmacy</figcaption>
                 </figure>
             </div>

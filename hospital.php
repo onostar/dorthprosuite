@@ -61,7 +61,7 @@
         <div class="slides">
             <div class="slide">
                 <div class="banner_img">
-                    <img src="images/hospital_banner.png" alt="hotel software banner">
+                    <img src="images/hospital_banner.png" alt="hospital software banner" loading="lazy">
                 </div>
                 <div class="taglines">
                     <div class="taglines_note">
