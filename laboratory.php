@@ -1,6 +1,6 @@
 <?php 
-    $title = "DorthPro Hotel & Lounge Management Software";
-    $description = "All-in-one cloud hotel software for bookings, billing, restaurant orders, and guest management — simple, secure, and accessible anywhere.";
+    $title = "DorthPro Laboratory Information System";
+    $description = "Run your diagnostics or medical laboratory smarter — manage patients, test requests, billing, and reporting in one cloud-based system.";
     include "controller/connections.php";
     include "admin/classes/dbh.php";
     include "admin/classes/select.php";
@@ -61,14 +61,14 @@
         <div class="slides">
             <div class="slide">
                 <div class="banner_img">
-                    <img src="images/receptionist.jpg" alt="hotel software banner">
+                    <img src="images/hospital_banner.png" alt="hotel software banner">
                 </div>
                 <div class="taglines">
                     <div class="taglines_note">
-                        <h1>DorthPro Hotel & Lounge Manager</h1>
-                        <p>Run your hotel, bar, and restaurant with ease — automate bookings, guest check-in/out, inventory, and billing.</p>
+                        <h1>DorthPro Laboratory Information System</h1>
+                        <p>Streamline your lab operations, manage test workflows, patient records, results, billing, and reporting — all in one smart platform.</p>
                         <div class="btns">
-                            <a href="https://wa.me/2347068897068?text=Hi, I'm interested in DorthProSuite Hotel and Lounge management software" target="_blank">Get Started <i class="fab fa-whatsapp"></i></a>
+                            <a href="https://wa.me/2347068897068?text=Hi, I'm interested in the DorthPro Laboraotory software" target="_blank">Get Started <i class="fab fa-whatsapp"></i></a>
                             <a href="request_demo.php">Request Demo <i class="fas fa-play-circle"></i></a>
                         </div>
                     </div>
@@ -79,116 +79,108 @@
 
     <main>
 
-        <!-- What Ydorthpro is -->
+        <!-- What dorthpro is -->
         <section id="features">
             <div class="features">
-                <h3>DorthPro Hotel: Your Complete Hotel Management Solution</h3>
-                <h4>Manage Your Rooms, Guests, Restaurant & Lounge — All In One Platform</h4>
-                <p>DorthPro Hotel is built to simplify day-to-day hotel operations. From guest check-in and reservations to bar and kitchen inventory tracking, billing, and staff monitoring — everything is fully integrated, cloud-based, and easy to use.</p>
-                <p>Trusted by boutique hotels, lounges, and resorts for delivering seamless hospitality experiences.</p>
+                <h3>All-in-One Laboratory Management</h3>
+                <h4>From Test Request to Result Reporting</h4>
+                <p>DorthPro LIS empowers diagnostic labs and medical laboratories to simplify sample management, track results, handle billing, and deliver accurate patient reports — faster and more securely.</p>
                 <hr>
                 <div class="feats">
                     <div class="feat">
-                        <i class="fas fa-bed"></i>
+                        <i class="fa-solid fa-user-injured"></i>
                         <div class="feat_details">
-                            <h3>Guest Check-In/Out</h3>
-                            <p>Manage room assignments, durations, and track guest activity in real time.</p>
+                            <h3>Patient Records</h3>
+                            <p>Register and manage patient details, history, and lab interactions in one place.</p>
                         </div>
                     </div>
-
                     <div class="feat">
-                        <i class="fas fa-utensils"></i>
+                        <i class="fa-solid fa-vial"></i>
                         <div class="feat_details">
-                            <h3>Bar & Kitchen Orders</h3>
-                            <p>Link kitchen/bar sales to rooms or direct walk-ins. Reduce delays and eliminate manual mix-ups.</p>
+                            <h3>Sample Tracking</h3>
+                            <p>Track samples from collection through processing to result — avoid delays and mix-ups.</p>
                         </div>
                     </div>
-
                     <div class="feat">
-                        <i class="fas fa-receipt"></i>
+                        <i class="fa-solid fa-file-medical"></i>
                         <div class="feat_details">
-                            <h3>Automated Billing</h3>
-                            <p>Consolidate all charges per guest (lodging, food, extras) and generate receipts with one click.</p>
+                            <h3>Test Result Management</h3>
+                            <p>Input, review, and approve results. Auto-generate printable patient reports instantly.</p>
                         </div>
                     </div>
-
                     <div class="feat">
-                        <i class="fas fa-chart-pie"></i>
+                        <i class="fa-solid fa-money-check-alt"></i>
                         <div class="feat_details">
-                            <h3>Live Dashboard & Reports</h3>
-                            <p>See today’s check-ins, revenue, bookings, and inventory from one easy dashboard.</p>
+                            <h3>Billing & Invoicing</h3>
+                            <p>Auto-generate bills for each test, accept payments, and issue receipts — all in one step.</p>
                         </div>
                     </div>
                 </div>
             </div>
 
             <div class="feature_img">
-                <img src="images/dorthpro_hotel_desktop.png" alt="Dorthpro Desktop Interface" loading="lazy">
-                <img src="images/dorthpro_hotel_laptop.png" alt="Dorthpro laptop-mobile Interface" loading="lazy">
+                <img src="images/dorthpro_hospital.png" alt="DorthPro Hospital" loading="lazy">
+                <img src="images/dorthpro_hospital_laptop.png" alt="DorthPro Hospital" loading="lazy">
             </div>
-        </section>
+            </section>
 
         <!-- Why Choose DorthPro -->
         <section id="amenities">
-            <h3 style="color:#222">Why Choose DorthPro Hotel?</h3>
-            <hr style="color:#222; background:#222">
-            <!-- <h2>Powerful Features to Grow Your Business</h2> -->
+            <h3>Why Choose DorthPro Lab?</h3>
+            <hr>
+            <h2>Smart Features for Smart Labs</h2>
             <div class="amenities">
                 <div class="offer">
-                    <i class="fas fa-hotel"></i>
+                    <i class="fas fa-flask"></i>
                     <div class="offer_info">
-                        <h4>Room Management</h4>
-                        <p>Track room availability, cleaning status, bookings, and guest history in one place.</p>
+                        <h4>Flexible Test Setup</h4>
+                        <p>Create custom test categories, units, ranges, and reporting formats.</p>
                     </div>
                 </div>
-
                 <div class="offer">
-                    <i class="fas fa-concierge-bell"></i>
+                    <i class="fas fa-chart-bar"></i>
                     <div class="offer_info">
-                        <h4>Restaurant & Bar Integration</h4>
-                        <p>Connect kitchen, POS, and rooms — charge guests or customers instantly and accurately.</p>
+                        <h4>Real-Time Reporting</h4>
+                        <p>Monitor daily activities, finances, and test volumes with dynamic reports.</p>
                     </div>
                 </div>
-
                 <div class="offer">
-                    <i class="fas fa-user-lock"></i>
+                    <i class="fas fa-envelope-open-text"></i>
                     <div class="offer_info">
-                        <h4>Staff Roles & Security</h4>
-                        <p>Assign access to only what staff need — reception, kitchen, management, etc.</p>
+                        <h4>Email & SMS Notifications</h4>
+                        <p>Automatically notify clients when results are ready.</p>
                     </div>
                 </div>
-
                 <div class="offer">
-                    <i class="fas fa-coins"></i>
+                    <i class="fas fa-cloud-upload-alt"></i>
                     <div class="offer_info">
-                        <h4>Payments & Profit Tracking</h4>
-                        <p>Monitor daily revenue, outstanding balances, and full financial breakdowns.</p>
+                        <h4>Cloud-Based Access</h4>
+                        <p>Work securely from anywhere — accessible by doctors, lab scientists, and management.</p>
                     </div>
                 </div>
-
                 <div class="offer">
-                    <i class="fas fa-calendar-alt"></i>
+                    <i class="fas fa-file-medical-alt"></i>
                     <div class="offer_info">
-                        <h4>Advance Booking & Walk-ins</h4>
-                        <p>Book in advance, reserve rooms, or admit instant guests — all streamlined into your system.</p>
+                        <h4>Custom Result Templates</h4>
+                        <p>Design reusable result formats for different tests and departments — fast and consistent every time.</p>
                     </div>
                 </div>
-
                 <div class="offer">
-                    <i class="fas fa-file-invoice"></i>
+                    <i class="fas fa-sync-alt"></i>
                     <div class="offer_info">
-                        <h4>Receipts & Invoicing</h4>
-                        <p>Print branded receipts and invoices for lodging, meals, and bar purchases instantly.</p>
+                        <h4>Automated Workflow</h4>
+                        <p>From sample collection to result delivery, streamline the lab process and minimize delays.</p>
                     </div>
                 </div>
             </div>
         </section>
-        <!-- Product Demo Video -->
+
+       <!-- Product Demo Video -->
         <section id="product_video">
-            <h3>Watch How Dorthpro Hotel Works</h3>
-            <!-- <p>This short demo shows how DorthPro helps you manage stock, sales, reports, and more — all from your browser.</p> -->
+            <h3>See DorthPro Lab in Action</h3>
+            <p>Watch this quick demo to discover how DorthPro Laboratory Information System simplifies test management, result generation, and lab operations — all from one smart dashboard.</p>
             <div class="video_wrapper">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/wonWP9ni9fM?si=AYS2X9tNmbi9X_XQ" title="Dorthpro Hotel Demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/cSxjmt_06ZM?si=hfHsSk125gZuLO_4" title="DorthPro Lab Demo Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             </div>
         </section>
         <!-- testimonials -->
@@ -199,49 +191,49 @@
                 <div class="testimonies">
                     <div class="testimony">
                         <div class="test_note">
-                            <p>"We used to struggle with tracking room occupancy and bar sales separately. Now with DorthPro Hotel, everything is synced in real time. Billing is fast and guests are happier"</p>
+                            <p>"DorthPro LIS has streamlined our entire lab process — from test entry to result delivery. It's fast, accurate, and saves us hours every day."</p>
                             <div class="testifier">
-                                <img src="images/dexdee_logo.jpg" alt="testifier">
-                                <span>- Mr. Desmond, Dexdee Resort</span>
+                                <img src="images/stjude_logo.png" alt="testifier">
+                                <span>- Ify Johnson, Lab Scientist, St. Jude Lab</span>
                             </div>
                         </div>
                     </div>
 
                     <div class="testimony">
                         <div class="test_note">
-                            <p>"Running our bar and restaurant used to be stressful—orders got mixed up, and tracking stock was a mess. Since we switched to DorthPro Hotel, everything is organized. From table orders to stock control and daily reports, the system handles it smoothly. It’s like having an extra manager on duty!"</p>
+                            <p>"DorthPro LIS has streamlined our entire lab process — from test entry to result delivery. It's fast, accurate, and saves us hours every day."</p>
                             <div class="testifier">
-                                <img src="images/asgard.jpg" alt="testifier">
-                                <span>- Accountant, Asgard Lounge</span>
+                                <img src="images/stjude_logo.png" alt="testifier">
+                                <span>- Ify Johnson, Lab Scientist, St. Jude Lab</span>
                             </div>
                         </div>
                     </div>
                     <div class="testimony">
                         <div class="test_note">
-                            <p>"Dqube Eatery runs smoother than ever since we started using DorthPro. Orders go straight from the counter to the kitchen, no mix-ups, no delays. Stock tracking, staff control, and daily sales are now super easy to manage. It's the best decision we've made for our business."</p>
+                            <p>"DorthPro LIS has streamlined our entire lab process — from test entry to result delivery. It's fast, accurate, and saves us hours every day."</p>
                             <div class="testifier">
-                                <img src="images/icon.png" alt="testifier">
-                                <span>- Mrs. Edith, D-qube Eatery</span>
+                                <img src="images/stjude_logo.png" alt="testifier">
+                                <span>- Ify Johnson, Lab Scientist, St. Jude Lab</span>
                             </div>
                         </div>
                     </div>
 
                     <div class="testimony">
                         <div class="test_note">
-                            <p>"Running our bar and restaurant used to be stressful—orders got mixed up, and tracking stock was a mess. Since we switched to DorthPro Hotel, everything is organized. From table orders to stock control and daily reports, the system handles it smoothly. It’s like having an extra manager on duty!"</p>
+                            <p>"DorthPro LIS has streamlined our entire lab process — from test entry to result delivery. It's fast, accurate, and saves us hours every day."</p>
                             <div class="testifier">
-                                <img src="images/asgard.jpg" alt="testifier">
-                                <span>- Accountant, Asgard Lounge</span>
+                                <img src="images/stjude_logo.png" alt="testifier">
+                                <span>- Ify Johnson, Lab Scientist, St. Jude Lab</span>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-
+               
         
         <!-- Clients -->
-        <section id="partners">
+        <!-- <section id="partners">
             <h3>Some of Our Clients</h3>
             <div class="partners">
                 <figure>
@@ -275,31 +267,44 @@
                 
                 
             </div>
-        </section>
+        </section> -->
+        <!-- faq -->
         <section id="faq">
             <h3>Frequently Asked Questions</h3>
             <div class="faq_items">
                 <div class="faq_item">
-                    <h4>Is internet required to use DorthPro?</h4>
-                    <p>Yes. DorthPro is a fully cloud-based system. You’ll need an internet connection to use it.</p>
+                    <h4>Can I use this in a small diagnostic lab?</h4>
+                    <p>Absolutely. DorthPro LIS is designed for labs of all sizes — from small diagnostic centers to large facilities.</p>
                 </div>
                 <div class="faq_item">
-                    <h4>Can I use it on my existing computer?</h4>
-                    <p>Yes, it works on most browsers and doesn’t require new hardware installations.</p>
+                    <h4>Is it accessible remotely?</h4>
+                    <p>Yes, it's fully cloud-based. Lab staff, doctors, and management can securely access the system from anywhere.</p>
                 </div>
                 <div class="faq_item">
-                    <h4>Do you offer training?</h4>
-                    <p>Yes. We provide onboarding and training during setup to ensure your team starts smoothly.</p>
+                    <h4>Can I customize test templates?</h4>
+                    <p>Yes, you can create and edit test templates, reference ranges, result formats, and categories to match your workflow.</p>
+                </div>
+                <div class="faq_item">
+                    <h4>Will I receive notifications when results are ready?</h4>
+                    <p>Yes. Clients and doctors can receive instant SMS or email alerts when test results are available.</p>
+                </div>
+                <div class="faq_item">
+                    <h4>Is training included?</h4>
+                    <p>Yes, we offer full onboarding, role-based training, and continuous support to ensure smooth adoption.</p>
+                </div>
+                <div class="faq_item">
+                    <h4>Can it be used offline?</h4>
+                    <p>By default it runs online, but we offer an offline-compatible version for environments with poor connectivity.</p>
                 </div>
             </div>
         </section>
         <!-- hero section -->
         <section id="quote_request">
-            <h3>Ready to Simplify Your Hotel and Lounge Operations</h3>
-            <p>Start using <strong>DorthPro Hotel</strong> today and experience seamless hospitality management — from bookings to bar, restaurant, and beyond.</p><br>
+            <h3>Ready to Upgrade Your Laboratory?</h3>
+            <p>Let DorthPro Laboratory System simplify your processes, save time, and improve accuracy.</p><br>
             <div class="block">
                 <a href="request_demo.php" style="background:var(--secondaryColor);font-size:1.1rem">Request a Free Demo <i class="fas fa-play-circle"></i></a>
-                <a href="https://wa.me/2347068897068?text=Hi, I'm interested in DorthProSuite Hotel and Lounge management software" target="_blank" style="font-size:1.1rem">Get Started <i class="fab fa-whatsapp"></i></a>
+                <a href="https://wa.me/2347068897068?text=Hi, I'm interested in DorthPro Laboratory Software" target="_blank" style="background:var(--tertiaryColor);font-size:1.1rem">Get Started <i class="fab fa-whatsapp"></i></a>
             </div>
         </section>
         <!-- other products -->
@@ -316,20 +321,20 @@
                     </figure>
 
                     <figure>
+                        <img src="images/hotel_icon.png" alt="icon">
+                        <figcaption>
+                            <h3>DorthPro Hotel & Lounge</h3>
+                            <p>Streamline guest check-ins, reservations, billing, and manage your bar and restaurant inventory from one easy-to-use platform.</p><br>
+                            <a href="hotel.php">View Details <i class="fas fa-paper-plane"></i></a>
+                        </figcaption>
+                    </figure>
+
+                    <figure>
                         <img src="images/hospital_icon.png" alt="icon">
                         <figcaption>
                             <h3>DorthPro Hospital Management</h3>
                             <p>Complete hospital and clinic solution — manage patient records, appointments, consultations, labs, pharmacy, billing, and corporate accounts in one place.</p><br>
                             <a href="hospital.php">View Details <i class="fas fa-paper-plane"></i></a>
-                        </figcaption>
-                    </figure>
-
-                    <figure>
-                        <img src="images/lab_icon.png" alt="icon">
-                        <figcaption>
-                            <h3>DorthPro Laboratory System</h3>
-                            <p>Manage all diagnostic center operations — test requests, sample tracking, results reporting, doctor access, billing, and patient records — all in one system.</p><br>
-                            <a href="laboratory.php">View Details <i class="fas fa-paper-plane"></i></a>
                         </figcaption>
                     </figure>
 

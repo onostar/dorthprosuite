@@ -1,6 +1,6 @@
 <?php 
-    $title = "DorthPro Hotel & Lounge Management Software";
-    $description = "All-in-one cloud hotel software for bookings, billing, restaurant orders, and guest management — simple, secure, and accessible anywhere.";
+    $title = "DorthPro Hospital Management Software";
+    $description = "Streamline your hospital operations — patient records, doctor consultations, pharmacy, billing, lab, and more in one powerful cloud-based system.";
     include "controller/connections.php";
     include "admin/classes/dbh.php";
     include "admin/classes/select.php";
@@ -61,14 +61,14 @@
         <div class="slides">
             <div class="slide">
                 <div class="banner_img">
-                    <img src="images/receptionist.jpg" alt="hotel software banner">
+                    <img src="images/hospital_banner.png" alt="hotel software banner">
                 </div>
                 <div class="taglines">
                     <div class="taglines_note">
-                        <h1>DorthPro Hotel & Lounge Manager</h1>
-                        <p>Run your hotel, bar, and restaurant with ease — automate bookings, guest check-in/out, inventory, and billing.</p>
+                        <h1>DorthPro Hospital Management System</h1>
+                        <p>Modern cloud-based solution to manage patients, appointments, consultations, billing, pharmacy, lab, and records — all in one secure system.</p>
                         <div class="btns">
-                            <a href="https://wa.me/2347068897068?text=Hi, I'm interested in DorthProSuite Hotel and Lounge management software" target="_blank">Get Started <i class="fab fa-whatsapp"></i></a>
+                            <a href="https://wa.me/2347068897068?text=Hi, I'm interested in the DorthPro Hospital software" target="_blank">Get Started <i class="fab fa-whatsapp"></i></a>
                             <a href="request_demo.php">Request Demo <i class="fas fa-play-circle"></i></a>
                         </div>
                     </div>
@@ -79,112 +79,112 @@
 
     <main>
 
-        <!-- What Ydorthpro is -->
+        <!-- What dorthpro is -->
         <section id="features">
             <div class="features">
-                <h3>DorthPro Hotel: Your Complete Hotel Management Solution</h3>
-                <h4>Manage Your Rooms, Guests, Restaurant & Lounge — All In One Platform</h4>
-                <p>DorthPro Hotel is built to simplify day-to-day hotel operations. From guest check-in and reservations to bar and kitchen inventory tracking, billing, and staff monitoring — everything is fully integrated, cloud-based, and easy to use.</p>
-                <p>Trusted by boutique hotels, lounges, and resorts for delivering seamless hospitality experiences.</p>
+                <h3>What You Get with DorthPro Health</h3>
+                <h4>Streamlined Hospital Operations from Reception to Discharge</h4>
+                <p>DorthPro Health is a powerful hospital management system designed for clinics, hospitals, and medical centers. It simplifies patient care, records, billing, and staff management — all from a single interface.</p>
+                <p>Trusted by healthcare providers to manage thousands of patient records, lab results, pharmacy transactions, and more.</p>
                 <hr>
                 <div class="feats">
                     <div class="feat">
-                        <i class="fas fa-bed"></i>
+                        <i class="fa-solid fa-user-plus"></i>
                         <div class="feat_details">
-                            <h3>Guest Check-In/Out</h3>
-                            <p>Manage room assignments, durations, and track guest activity in real time.</p>
+                        <h3>Patient Registration</h3>
+                        <p>Capture and manage complete patient details, history, and appointments seamlessly.</p>
                         </div>
                     </div>
 
                     <div class="feat">
-                        <i class="fas fa-utensils"></i>
+                        <i class="fa-solid fa-file-medical-alt"></i>
                         <div class="feat_details">
-                            <h3>Bar & Kitchen Orders</h3>
-                            <p>Link kitchen/bar sales to rooms or direct walk-ins. Reduce delays and eliminate manual mix-ups.</p>
+                        <h3>Medical Records</h3>
+                        <p>Maintain accurate and up-to-date electronic medical records with ease.</p>
                         </div>
                     </div>
 
                     <div class="feat">
-                        <i class="fas fa-receipt"></i>
+                        <i class="fa-solid fa-flask"></i>
                         <div class="feat_details">
-                            <h3>Automated Billing</h3>
-                            <p>Consolidate all charges per guest (lodging, food, extras) and generate receipts with one click.</p>
+                        <h3>Lab & Diagnostics</h3>
+                        <p>Request, process, and review lab tests and results — with auto updates to patient files.</p>
                         </div>
                     </div>
 
                     <div class="feat">
-                        <i class="fas fa-chart-pie"></i>
+                        <i class="fa-solid fa-pills"></i>
                         <div class="feat_details">
-                            <h3>Live Dashboard & Reports</h3>
-                            <p>See today’s check-ins, revenue, bookings, and inventory from one easy dashboard.</p>
+                        <h3>Pharmacy Management</h3>
+                        <p>Track prescriptions, dispense drugs, and manage pharmacy inventory with alerts.</p>
                         </div>
                     </div>
                 </div>
             </div>
 
             <div class="feature_img">
-                <img src="images/dorthpro_hotel_desktop.png" alt="Dorthpro Desktop Interface" loading="lazy">
-                <img src="images/dorthpro_hotel_laptop.png" alt="Dorthpro laptop-mobile Interface" loading="lazy">
+                <img src="images/dorthpro_hospital.png" alt="DorthPro Hospital" loading="lazy">
+                <img src="images/dorthpro_hospital_laptop.png" alt="DorthPro Hospital" loading="lazy">
             </div>
-        </section>
+            </section>
 
         <!-- Why Choose DorthPro -->
         <section id="amenities">
-            <h3 style="color:#222">Why Choose DorthPro Hotel?</h3>
-            <hr style="color:#222; background:#222">
-            <!-- <h2>Powerful Features to Grow Your Business</h2> -->
+            <h3>Why Choose DorthPro Health?</h3>
+            <hr>
+            <h2>Comprehensive Features for Smarter Healthcare</h2>
             <div class="amenities">
                 <div class="offer">
-                    <i class="fas fa-hotel"></i>
-                    <div class="offer_info">
-                        <h4>Room Management</h4>
-                        <p>Track room availability, cleaning status, bookings, and guest history in one place.</p>
-                    </div>
+                <i class="fas fa-bed-pulse"></i>
+                <div class="offer_info">
+                    <h4>Inpatient & Outpatient Care</h4>
+                    <p>Manage admissions, discharges, consultations, and patient flow without confusion.</p>
+                </div>
                 </div>
 
                 <div class="offer">
-                    <i class="fas fa-concierge-bell"></i>
-                    <div class="offer_info">
-                        <h4>Restaurant & Bar Integration</h4>
-                        <p>Connect kitchen, POS, and rooms — charge guests or customers instantly and accurately.</p>
-                    </div>
+                <i class="fas fa-user-nurse"></i>
+                <div class="offer_info">
+                    <h4>Nursing Module</h4>
+                    <p>Allow nurses to track vitals, monitor patients, and update treatment progress efficiently.</p>
+                </div>
                 </div>
 
                 <div class="offer">
-                    <i class="fas fa-user-lock"></i>
-                    <div class="offer_info">
-                        <h4>Staff Roles & Security</h4>
-                        <p>Assign access to only what staff need — reception, kitchen, management, etc.</p>
-                    </div>
+                <i class="fas fa-money-bill-wave"></i>
+                <div class="offer_info">
+                    <h4>Billing & Payments</h4>
+                    <p>Handle consultations, lab, drugs, and service charges with accurate billing and receipts.</p>
+                </div>
                 </div>
 
                 <div class="offer">
-                    <i class="fas fa-coins"></i>
-                    <div class="offer_info">
-                        <h4>Payments & Profit Tracking</h4>
-                        <p>Monitor daily revenue, outstanding balances, and full financial breakdowns.</p>
-                    </div>
+                <i class="fas fa-stethoscope"></i>
+                <div class="offer_info">
+                    <h4>Doctor Dashboard</h4>
+                    <p>Empower doctors with quick access to patient histories, diagnoses, prescriptions, and results.</p>
+                </div>
                 </div>
 
                 <div class="offer">
-                    <i class="fas fa-calendar-alt"></i>
-                    <div class="offer_info">
-                        <h4>Advance Booking & Walk-ins</h4>
-                        <p>Book in advance, reserve rooms, or admit instant guests — all streamlined into your system.</p>
-                    </div>
+                <i class="fas fa-chart-pie"></i>
+                <div class="offer_info">
+                    <h4>Reports & Analytics</h4>
+                    <p>Track performance, revenue, patient trends, and departmental activities in real time.</p>
+                </div>
                 </div>
 
                 <div class="offer">
-                    <i class="fas fa-file-invoice"></i>
-                    <div class="offer_info">
-                        <h4>Receipts & Invoicing</h4>
-                        <p>Print branded receipts and invoices for lodging, meals, and bar purchases instantly.</p>
-                    </div>
+                <i class="fas fa-cloud"></i>
+                <div class="offer_info">
+                    <h4>Cloud Access</h4>
+                    <p>Work securely from anywhere — manage your hospital across branches with internet access.</p>
+                </div>
                 </div>
             </div>
-        </section>
+            </section>
         <!-- Product Demo Video -->
-        <section id="product_video">
+        <section id="product_video" style="display:none">
             <h3>Watch How Dorthpro Hotel Works</h3>
             <!-- <p>This short demo shows how DorthPro helps you manage stock, sales, reports, and more — all from your browser.</p> -->
             <div class="video_wrapper">
@@ -192,7 +192,7 @@
             </div>
         </section>
         <!-- testimonials -->
-        <section id="testimonies">
+        <!-- <section id="testimonies">
             <h3>What Our Clients Say</h3>
             <hr>
             <div class="box">
@@ -238,10 +238,10 @@
                 </div>
             </div>
         </section>
-
+                -->
         
         <!-- Clients -->
-        <section id="partners">
+        <!-- <section id="partners">
             <h3>Some of Our Clients</h3>
             <div class="partners">
                 <figure>
@@ -275,31 +275,32 @@
                 
                 
             </div>
-        </section>
+        </section> -->
         <section id="faq">
             <h3>Frequently Asked Questions</h3>
             <div class="faq_items">
                 <div class="faq_item">
-                    <h4>Is internet required to use DorthPro?</h4>
-                    <p>Yes. DorthPro is a fully cloud-based system. You’ll need an internet connection to use it.</p>
+                    <h4>Can I use this in a small clinic?</h4>
+                    <p>Yes, DorthPro Health works for both small clinics and large hospitals with multi-departments.</p>
                 </div>
                 <div class="faq_item">
-                    <h4>Can I use it on my existing computer?</h4>
-                    <p>Yes, it works on most browsers and doesn’t require new hardware installations.</p>
+                    <h4>Is it accessible remotely?</h4>
+                    <p>Yes. It is a cloud-based system — doctors and admins can log in from anywhere securely.</p>
+    
                 </div>
                 <div class="faq_item">
                     <h4>Do you offer training?</h4>
-                    <p>Yes. We provide onboarding and training during setup to ensure your team starts smoothly.</p>
+                    <p>Yes, we provide onboarding, setup assistance, and training for all staff roles.</p>
                 </div>
             </div>
         </section>
         <!-- hero section -->
         <section id="quote_request">
-            <h3>Ready to Simplify Your Hotel and Lounge Operations</h3>
-            <p>Start using <strong>DorthPro Hotel</strong> today and experience seamless hospitality management — from bookings to bar, restaurant, and beyond.</p><br>
+            <h3>Ready to Transform Your Hospital?</h3>
+            <p>Request a free demo today or chat with our support team to get started.</p><br>
             <div class="block">
                 <a href="request_demo.php" style="background:var(--secondaryColor);font-size:1.1rem">Request a Free Demo <i class="fas fa-play-circle"></i></a>
-                <a href="https://wa.me/2347068897068?text=Hi, I'm interested in DorthProSuite Hotel and Lounge management software" target="_blank" style="font-size:1.1rem">Get Started <i class="fab fa-whatsapp"></i></a>
+                <a href="https://wa.me/2347068897068?text=Hi, I'm interested in DorthPro Hospital management system" target="_blank" style="font-size:1.1rem">Get Started <i class="fab fa-whatsapp"></i></a>
             </div>
         </section>
         <!-- other products -->
@@ -316,11 +317,11 @@
                     </figure>
 
                     <figure>
-                        <img src="images/hospital_icon.png" alt="icon">
+                        <img src="images/hotel_icon.png" alt="icon">
                         <figcaption>
-                            <h3>DorthPro Hospital Management</h3>
-                            <p>Complete hospital and clinic solution — manage patient records, appointments, consultations, labs, pharmacy, billing, and corporate accounts in one place.</p><br>
-                            <a href="hospital.php">View Details <i class="fas fa-paper-plane"></i></a>
+                            <h3>DorthPro Hotel & Lounge</h3>
+                            <p>Streamline guest check-ins, reservations, billing, and manage your bar and restaurant inventory from one easy-to-use platform.</p><br>
+                            <a href="hotel.php">View Details <i class="fas fa-paper-plane"></i></a>
                         </figcaption>
                     </figure>
 
