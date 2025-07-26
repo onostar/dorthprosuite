@@ -123,8 +123,8 @@
             </div>
 
             <div class="feature_img">
-                <img src="images/dorthpro_desktop_view.png" alt="Dorthpro Desktop Interface" loading="lazy">
-                <img src="images/dorthpro_laptop_mobile.png" alt="Dorthpro laptop-mobile Interface" loading="lazy">
+                <img src="images/dorthpro_hotel_desktop.png" alt="Dorthpro Desktop Interface" loading="lazy">
+                <img src="images/dorthpro_hotel_laptop.png" alt="Dorthpro laptop-mobile Interface" loading="lazy">
             </div>
         </section>
 
