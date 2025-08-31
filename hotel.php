@@ -61,7 +61,7 @@
         <div class="slides">
             <div class="slide">
                 <div class="banner_img">
-                    <img src="images/receptionist.jpg" alt="hotel software banner">
+                    <img src="images/dorthpro_hotel.png" alt="hotel software banner">
                 </div>
                 <div class="taglines">
                     <div class="taglines_note">

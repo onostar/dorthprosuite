@@ -184,11 +184,11 @@
             </div>
             </section>
         <!-- Product Demo Video -->
-        <section id="product_video" style="display:none">
-            <h3>Watch How Dorthpro Hotel Works</h3>
+        <section id="product_video">
+            <h3>Watch How DorthPro Health Works</h3>
             <!-- <p>This short demo shows how DorthPro helps you manage stock, sales, reports, and more — all from your browser.</p> -->
             <div class="video_wrapper">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/wonWP9ni9fM?si=AYS2X9tNmbi9X_XQ" title="Dorthpro Hotel Demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/-Ia3CWY_Yw8?si=oPIQHM0dgW8qQy4z" title="Dorthpro Health" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             </div>
         </section>
         <!-- testimonials -->
